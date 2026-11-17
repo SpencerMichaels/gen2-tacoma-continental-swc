@@ -102,7 +102,7 @@ Test points: TP1 GND, TP2 5 V regulator output, TP3 SWRC+, TP4 SWRC GND, TP5 ACC
 
 ## Credits
 
-- Steering-wheel resistances from the 2011–2015 Tacoma service manual (Steering Pad Switch Circuit).
+- Steering-wheel resistances come from the 2013 Tacoma repair manual: *Navigation System (Diagnostic Codes & Symptom Tests) → Symptom Tests → Steering Pad Switch Circuit → Procedure*. The harness and switch-assembly resistance tables are under Figures 45 and 46. [docs/interface.md](docs/interface.md#tacoma-steering-wheel) has the full citation.
 - The XIAO socket footprint follows Seeed Studio's [KiCad library](https://github.com/Seeed-Studio/OPL_Kicad_Library).
 - Built with KiCad, Freerouting, ngspice, FreeCAD, PlatformIO and the [Arduino-Pico](https://github.com/earlephilhower/arduino-pico) core.
 

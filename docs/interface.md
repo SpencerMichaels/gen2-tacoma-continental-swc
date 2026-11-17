@@ -26,9 +26,16 @@ Resistance from each line to SWG, with the radio disconnected:
 | SW2 | Voice (not on all wheels) | 2955–3265 Ω | ignored |
 | either | Released | 95–105 kΩ | 3160–4095 |
 
-Source: the 2011–2015 Tacoma repair manual, *Steering Pad Switch Circuit* (navigation and audio system diagnostics). The later (2016+) Tacoma manual lists tighter tolerances for the same buttons; don't use those for a Gen 2 truck.
+Source: the 2013 Tacoma repair manual, *Repair and Diagnosis → Accessories & Equipment → Infotainment → Navigation System (Diagnostic Codes & Symptom Tests) → Navigation System → Symptom Tests → Steering Pad Switch Circuit → Procedure*.
+- **Resistance tables:** the harness test is under Figure 45 and the switch-assembly test under Figure 46 (illustrations GTY325412 and GTY373484).
+- **Wiring:** the circuit diagram is illustration GTY369354.
+- **Other years:** the same procedure appears in the 2011–2015 manual (*Audio and Visual System: Diagnostic Codes & Symptom Tests*).
 
-The factory navigation receiver pulls these lines up to about 3.3 V (its manual lists 2.97–3.56 V idle). The board does the same: 3.3 V through a BAS70 diode and 2.2 kΩ. The ADC bands allow for:
+The manual is available online only as section pages, with no printed page numbers, so the section path is the most precise reference. The 2016+ Tacoma manual lists tighter tolerances for the same buttons; don't use those for a Gen 2 truck.
+
+The idle voltages below are from *Navigation System → Terminals of ECU*, connector R15.
+
+The factory navigation receiver pulls these lines up to about 3.3 V (2.97–3.56 V idle, per *Terminals of ECU*). The board does the same: 3.3 V through a BAS70 diode and 2.2 kΩ. The ADC bands allow for:
 
 - ±1 % pull-up resistors
 - a 3.2–3.4 V supply
