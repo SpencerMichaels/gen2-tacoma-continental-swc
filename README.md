@@ -2,7 +2,7 @@
 
 A small board that lets the steering-wheel audio buttons of a **second-generation Toyota Tacoma** (2005–2015) control a **Continental CRD4512UBA** aftermarket radio.
 
-The Tacoma's wheel buttons and the Continental's steering-wheel input both work by resistance, but they don't speak the same language. The truck puts its seven buttons on two separate resistor ladders. The radio expects one resistance on one wire, with its own set of values. This board reads the truck's two lines, works out which button is pressed, and switches in the resistance the radio wants for that command.
+The Tacoma's wheel buttons and the Continental's steering-wheel input both use resistance, but they aren't compatible. The truck splits its seven buttons across two wires (SW1 and SW2), with resistances of about 0 Ω, 330 Ω, 1 kΩ and 3.1 kΩ on each. The radio reads a single wire and recognises a different set of resistance ranges, from 0–100 Ω for Volume Down to 1.3–3 kΩ for Mic Mute. This board reads the truck's two lines, works out which button is pressed, and switches in the resistance the radio wants for that command.
 
 ![Assembled board, 3D render](docs/img/board_3d.png)
 
