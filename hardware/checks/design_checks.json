@@ -1,0 +1,249 @@
+{
+  "status": "PASS",
+  "kicad_version": "10.0.6",
+  "erc_violations": 0,
+  "connected_component_pins_checked": 134,
+  "checks": [
+    "KiCad netlist equals pin intent",
+    "five branches and seven resistance commands",
+    "simultaneous-pair GPIO port masks",
+    "all capacitors retained",
+    "J1 assignments and NC contacts",
+    "SWC-only scope and unused D2-D5 disconnected",
+    "3.3V supply and ADC clamps; USB power disconnect verified",
+    "nonoverlapping provisional ADC bands",
+    "output tolerance envelopes inside user windows"
+  ],
+  "adc_calculation_assumptions": "12-bit4095 fullscale; VSENSE=ADC3V3=3.201-3.399V, +/-1% mismatch screen; BAS70 VF0-0.6V; pullups +/-1%; extra +/-32 counts. Bench/temperature validation still required.",
+  "adc": [
+    {
+      "state": "zero",
+      "assumed_envelope_counts": [
+        0,
+        37
+      ],
+      "provisional_acceptance": [
+        0,
+        60
+      ]
+    },
+    {
+      "state": "330R",
+      "assumed_envelope_counts": [
+        374,
+        598
+      ],
+      "provisional_acceptance": [
+        340,
+        630
+      ]
+    },
+    {
+      "state": "1k",
+      "assumed_envelope_counts": [
+        954,
+        1378
+      ],
+      "provisional_acceptance": [
+        930,
+        1390
+      ]
+    },
+    {
+      "state": "3.1k",
+      "assumed_envelope_counts": [
+        1848,
+        2513
+      ],
+      "provisional_acceptance": [
+        1830,
+        2530
+      ]
+    },
+    {
+      "state": "released",
+      "assumed_envelope_counts": [
+        3186,
+        4084
+      ],
+      "provisional_acceptance": [
+        3160,
+        4095
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "command": "volume_down",
+      "branches": [
+        "47R"
+      ],
+      "nominal_ohms": 47.0,
+      "calculated_ohms": [
+        46.53,
+        47.57
+      ],
+      "user_window_ohms": [
+        0,
+        100
+      ]
+    },
+    {
+      "command": "volume_up",
+      "branches": [
+        "191R",
+        "390R"
+      ],
+      "nominal_ohms": 128.20998278829603,
+      "calculated_ohms": [
+        126.92788296041309,
+        129.5479463722935
+      ],
+      "user_window_ohms": [
+        100,
+        160
+      ]
+    },
+    {
+      "command": "source",
+      "branches": [
+        "191R"
+      ],
+      "nominal_ohms": 191.0,
+      "calculated_ohms": [
+        189.09,
+        193.01
+      ],
+      "user_window_ohms": [
+        160,
+        220
+      ]
+    },
+    {
+      "command": "seek_up",
+      "branches": [
+        "390R",
+        "1K"
+      ],
+      "nominal_ohms": 280.57553956834533,
+      "calculated_ohms": [
+        277.7697841726619,
+        283.44092301118155
+      ],
+      "user_window_ohms": [
+        220,
+        320
+      ]
+    },
+    {
+      "command": "seek_down",
+      "branches": [
+        "390R"
+      ],
+      "nominal_ohms": 390.0,
+      "calculated_ohms": [
+        386.1,
+        394.00000000000006
+      ],
+      "user_window_ohms": [
+        320,
+        470
+      ]
+    },
+    {
+      "command": "phone",
+      "branches": [
+        "1K"
+      ],
+      "nominal_ohms": 1000.0,
+      "calculated_ohms": [
+        990.0,
+        1010.0999999999999
+      ],
+      "user_window_ohms": [
+        720,
+        1300
+      ]
+    },
+    {
+      "command": "mute",
+      "branches": [
+        "2K"
+      ],
+      "nominal_ohms": 2000.0,
+      "calculated_ohms": [
+        1980.0,
+        2020.1000000000001
+      ],
+      "user_window_ohms": [
+        1300,
+        3000
+      ]
+    }
+  ],
+  "regulator_nominal_v": 4.973303,
+  "schematic_references_with_selected_mpn": 49,
+  "mpn_count_scope": "Schematic reference count includes removable A1 module; carrier purchasing replaces A1 with two socket strips. See package-check.json for the 50 fitted carrier parts.",
+  "footprints_checked": [
+    "J1",
+    "A1",
+    "C10",
+    "TP9",
+    "NT1",
+    "C7",
+    "C8",
+    "R4",
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "F1",
+    "D1",
+    "R1",
+    "D2",
+    "C1",
+    "C2",
+    "U1",
+    "C3",
+    "R2",
+    "R3",
+    "JP1",
+    "C4",
+    "TP5",
+    "TP6",
+    "D5",
+    "R5",
+    "R7",
+    "C5",
+    "D7",
+    "TP7",
+    "D6",
+    "R6",
+    "R8",
+    "C6",
+    "D8",
+    "TP8",
+    "C11",
+    "R11",
+    "Q1",
+    "R21",
+    "R31",
+    "R13",
+    "Q3",
+    "R23",
+    "R33",
+    "R15",
+    "Q5",
+    "R25",
+    "R35",
+    "R16",
+    "Q6",
+    "R26",
+    "R36",
+    "R17",
+    "Q7",
+    "R27",
+    "R37"
+  ],
+  "pending_footprints": []
+}

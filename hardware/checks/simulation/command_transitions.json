@@ -1,0 +1,911 @@
+{
+  "status": "PASS_WITH_MODEL_LIMITATIONS",
+  "cases": 112,
+  "failures": [],
+  "netlist_sha256": "9ba9b490f5e84117569970c3cd843be01c53250e6678c28d9a2bcaa719ad028d",
+  "assumptions": [
+    "470 ohm radio pull-up to ideal 3.3 V;100 pF intrinsic input capacitance",
+    "C11 screened at 7/13 nF;not a manufacturer worst-case envelope",
+    "Gate edges 1 us;20 us all-off interval;settling checked 178 us after new mask completes",
+    "Behavioral MCU and approximate MOSFET model;no firmware,receiver sampling,or power-stage validation",
+    "Transitions can cross intermediate command voltages;radio debounce behavior unknown"
+  ],
+  "results": [
+    {
+      "before": "release",
+      "after": "volume_down",
+      "c11_f": 7e-09,
+      "min_v": 0.3002785094708411,
+      "max_v": 3.304336169831291,
+      "settled_pass": true
+    },
+    {
+      "before": "release",
+      "after": "volume_down",
+      "c11_f": 1.3e-08,
+      "min_v": 0.30027850752774754,
+      "max_v": 3.3024680223139167,
+      "settled_pass": true
+    },
+    {
+      "before": "release",
+      "after": "volume_up",
+      "c11_f": 7e-09,
+      "min_v": 0.7073811362753444,
+      "max_v": 3.3084447974746785,
+      "settled_pass": true
+    },
+    {
+      "before": "release",
+      "after": "volume_up",
+      "c11_f": 1.3e-08,
+      "min_v": 0.7073811109439,
+      "max_v": 3.3048054664584505,
+      "settled_pass": true
+    },
+    {
+      "before": "release",
+      "after": "source",
+      "c11_f": 7e-09,
+      "min_v": 0.953725550790792,
+      "max_v": 3.304281996716546,
+      "settled_pass": true
+    },
+    {
+      "before": "release",
+      "after": "source",
+      "c11_f": 1.3e-08,
+      "min_v": 0.9537256012465839,
+      "max_v": 3.302437089523275,
+      "settled_pass": true
+    },
+    {
+      "before": "release",
+      "after": "seek_up",
+      "c11_f": 7e-09,
+      "min_v": 1.233664487503223,
+      "max_v": 3.307925548618543,
+      "settled_pass": true
+    },
+    {
+      "before": "release",
+      "after": "seek_up",
+      "c11_f": 1.3e-08,
+      "min_v": 1.2336645343883796,
+      "max_v": 3.304506724731016,
+      "settled_pass": true
+    },
+    {
+      "before": "release",
+      "after": "seek_down",
+      "c11_f": 7e-09,
+      "min_v": 1.496612270178718,
+      "max_v": 3.3041711349307974,
+      "settled_pass": true
+    },
+    {
+      "before": "release",
+      "after": "seek_down",
+      "c11_f": 1.3e-08,
+      "min_v": 1.4966122808152058,
+      "max_v": 3.302373077135103,
+      "settled_pass": true
+    },
+    {
+      "before": "release",
+      "after": "phone",
+      "c11_f": 7e-09,
+      "min_v": 2.244932404077273,
+      "max_v": 3.303770181430441,
+      "settled_pass": true
+    },
+    {
+      "before": "release",
+      "after": "phone",
+      "c11_f": 1.3e-08,
+      "min_v": 2.244932404077271,
+      "max_v": 3.3021423569520905,
+      "settled_pass": true
+    },
+    {
+      "before": "release",
+      "after": "mute",
+      "c11_f": 7e-09,
+      "min_v": 2.6720769704834497,
+      "max_v": 3.303151840358631,
+      "settled_pass": true
+    },
+    {
+      "before": "release",
+      "after": "mute",
+      "c11_f": 1.3e-08,
+      "min_v": 2.672076970483448,
+      "max_v": 3.3017887069436536,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "release",
+      "c11_f": 7e-09,
+      "min_v": 0.3002738688753657,
+      "max_v": 3.2999999821399966,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "release",
+      "c11_f": 1.3e-08,
+      "min_v": 0.30027466087526733,
+      "max_v": 3.2999999821399917,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "volume_up",
+      "c11_f": 7e-09,
+      "min_v": 0.3002738688753657,
+      "max_v": 3.2988191968769995,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "volume_up",
+      "c11_f": 1.3e-08,
+      "min_v": 0.30027466087526733,
+      "max_v": 3.1812551812109287,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "source",
+      "c11_f": 7e-09,
+      "min_v": 0.3002738688753657,
+      "max_v": 3.294654471293933,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "source",
+      "c11_f": 1.3e-08,
+      "min_v": 0.30027466087526733,
+      "max_v": 3.178924372657424,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "seek_up",
+      "c11_f": 7e-09,
+      "min_v": 0.3002738688753657,
+      "max_v": 3.2983165521280378,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "seek_up",
+      "c11_f": 1.3e-08,
+      "min_v": 0.30027466087526733,
+      "max_v": 3.18109162865839,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "seek_down",
+      "c11_f": 7e-09,
+      "min_v": 0.3002738688753657,
+      "max_v": 3.29455740264123,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "seek_down",
+      "c11_f": 1.3e-08,
+      "min_v": 0.30027466087526733,
+      "max_v": 3.178976923682899,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "phone",
+      "c11_f": 7e-09,
+      "min_v": 0.3002738688753657,
+      "max_v": 3.2941776506170815,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "phone",
+      "c11_f": 1.3e-08,
+      "min_v": 0.30027466087526733,
+      "max_v": 3.1789510455722674,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "mute",
+      "c11_f": 7e-09,
+      "min_v": 0.3002738688753657,
+      "max_v": 3.293577289550091,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_down",
+      "after": "mute",
+      "c11_f": 1.3e-08,
+      "min_v": 0.30027466087526733,
+      "max_v": 3.1787920000802923,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "release",
+      "c11_f": 7e-09,
+      "min_v": 0.7073781774817952,
+      "max_v": 3.299999982139996,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "release",
+      "c11_f": 1.3e-08,
+      "min_v": 0.7073790623514821,
+      "max_v": 3.2999999821399917,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "volume_down",
+      "c11_f": 7e-09,
+      "min_v": 0.30027850947630447,
+      "max_v": 3.295857852849345,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "volume_down",
+      "c11_f": 1.3e-08,
+      "min_v": 0.3002785074639413,
+      "max_v": 3.1945897331368873,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "source",
+      "c11_f": 7e-09,
+      "min_v": 0.7073781774817952,
+      "max_v": 3.295819089197765,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "source",
+      "c11_f": 1.3e-08,
+      "min_v": 0.7073790623514821,
+      "max_v": 3.194668290228317,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "seek_up",
+      "c11_f": 7e-09,
+      "min_v": 0.7073781774817952,
+      "max_v": 3.299479633225827,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "seek_up",
+      "c11_f": 1.3e-08,
+      "min_v": 0.7073790623514821,
+      "max_v": 3.1968268823150465,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "seek_down",
+      "c11_f": 7e-09,
+      "min_v": 0.7073781774817952,
+      "max_v": 3.29572024081087,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "seek_down",
+      "c11_f": 1.3e-08,
+      "min_v": 0.7073790623514821,
+      "max_v": 3.1947048422079387,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "phone",
+      "c11_f": 7e-09,
+      "min_v": 0.7073781774817952,
+      "max_v": 3.295338231393465,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "phone",
+      "c11_f": 1.3e-08,
+      "min_v": 0.7073790623514821,
+      "max_v": 3.1946483886526593,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "mute",
+      "c11_f": 7e-09,
+      "min_v": 0.7073781774817952,
+      "max_v": 3.2947347402907647,
+      "settled_pass": true
+    },
+    {
+      "before": "volume_up",
+      "after": "mute",
+      "c11_f": 1.3e-08,
+      "min_v": 0.7073790623514821,
+      "max_v": 3.1944562287308003,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "release",
+      "c11_f": 7e-09,
+      "min_v": 0.9537233329316631,
+      "max_v": 3.299999982139997,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "release",
+      "c11_f": 1.3e-08,
+      "min_v": 0.9537240880421984,
+      "max_v": 3.2999999821399917,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "volume_down",
+      "c11_f": 7e-09,
+      "min_v": 0.3002785094757523,
+      "max_v": 3.296682083822795,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "volume_down",
+      "c11_f": 1.3e-08,
+      "min_v": 0.3002785074546742,
+      "max_v": 3.2049506981258875,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "volume_up",
+      "c11_f": 7e-09,
+      "min_v": 0.7073811354675926,
+      "max_v": 3.3008073467599983,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "volume_up",
+      "c11_f": 1.3e-08,
+      "min_v": 0.707381112545553,
+      "max_v": 3.2073651814967103,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "seek_up",
+      "c11_f": 7e-09,
+      "min_v": 0.9537233329316631,
+      "max_v": 3.3003011865125877,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "seek_up",
+      "c11_f": 1.3e-08,
+      "min_v": 0.9537240880421984,
+      "max_v": 3.207167030604135,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "seek_down",
+      "c11_f": 7e-09,
+      "min_v": 0.9537233329316631,
+      "max_v": 3.2965418416551153,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "seek_down",
+      "c11_f": 1.3e-08,
+      "min_v": 0.9537240880421984,
+      "max_v": 3.205041856968892,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "phone",
+      "c11_f": 7e-09,
+      "min_v": 0.9537233329316631,
+      "max_v": 3.296158596531247,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "phone",
+      "c11_f": 1.3e-08,
+      "min_v": 0.9537240880421984,
+      "max_v": 3.2049665917077017,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "mute",
+      "c11_f": 7e-09,
+      "min_v": 0.9537233329316631,
+      "max_v": 3.295553399078947,
+      "settled_pass": true
+    },
+    {
+      "before": "source",
+      "after": "mute",
+      "c11_f": 1.3e-08,
+      "min_v": 0.9537240880421984,
+      "max_v": 3.2047548397935492,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "release",
+      "c11_f": 7e-09,
+      "min_v": 1.2336628186871104,
+      "max_v": 3.299999982139996,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "release",
+      "c11_f": 1.3e-08,
+      "min_v": 1.2336634321444429,
+      "max_v": 3.2999999821399912,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "volume_down",
+      "c11_f": 7e-09,
+      "min_v": 0.3002785094706081,
+      "max_v": 3.2974904445271123,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "volume_down",
+      "c11_f": 1.3e-08,
+      "min_v": 0.3002785074615783,
+      "max_v": 3.21585085594245,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "volume_up",
+      "c11_f": 7e-09,
+      "min_v": 0.7073811369099414,
+      "max_v": 3.3016140953977806,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "volume_up",
+      "c11_f": 1.3e-08,
+      "min_v": 0.7073811126375837,
+      "max_v": 3.218260297251718,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "source",
+      "c11_f": 7e-09,
+      "min_v": 0.9537255508150582,
+      "max_v": 3.2974490362768702,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "source",
+      "c11_f": 1.3e-08,
+      "min_v": 0.9537256012485074,
+      "max_v": 3.215906968507267,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "seek_down",
+      "c11_f": 7e-09,
+      "min_v": 1.2336628186871104,
+      "max_v": 3.2973475728397905,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "seek_down",
+      "c11_f": 1.3e-08,
+      "min_v": 1.2336634321444429,
+      "max_v": 3.21592114837797,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "phone",
+      "c11_f": 7e-09,
+      "min_v": 1.2336628186871104,
+      "max_v": 3.2969624617593993,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "phone",
+      "c11_f": 1.3e-08,
+      "min_v": 1.2336634321444429,
+      "max_v": 3.2158246393294636,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "mute",
+      "c11_f": 7e-09,
+      "min_v": 1.2336628186871104,
+      "max_v": 3.296356224427705,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_up",
+      "after": "mute",
+      "c11_f": 1.3e-08,
+      "min_v": 1.2336634321444429,
+      "max_v": 3.21559255271567,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "release",
+      "c11_f": 7e-09,
+      "min_v": 1.4966109845480864,
+      "max_v": 3.299999982139996,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "release",
+      "c11_f": 1.3e-08,
+      "min_v": 1.496611466763408,
+      "max_v": 3.2999999821399912,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "volume_down",
+      "c11_f": 7e-09,
+      "min_v": 0.3002785094696456,
+      "max_v": 3.2983884840345774,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "volume_down",
+      "c11_f": 1.3e-08,
+      "min_v": 0.3002785074918928,
+      "max_v": 3.2270364726851204,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "volume_up",
+      "c11_f": 7e-09,
+      "min_v": 0.7073811354587958,
+      "max_v": 3.3025101236209458,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "volume_up",
+      "c11_f": 1.3e-08,
+      "min_v": 0.7073811128930447,
+      "max_v": 3.2294377794605076,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "source",
+      "c11_f": 7e-09,
+      "min_v": 0.9537255508126661,
+      "max_v": 3.2983453692380658,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "source",
+      "c11_f": 1.3e-08,
+      "min_v": 0.953725601248179,
+      "max_v": 3.22708151745198,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "seek_up",
+      "c11_f": 7e-09,
+      "min_v": 1.2336644865279163,
+      "max_v": 3.3020014279470864,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "seek_up",
+      "c11_f": 1.3e-08,
+      "min_v": 1.2336645343883794,
+      "max_v": 3.229216602617804,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "phone",
+      "c11_f": 7e-09,
+      "min_v": 1.4966109845480864,
+      "max_v": 3.2978557351889997,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "phone",
+      "c11_f": 1.3e-08,
+      "min_v": 1.496611466763408,
+      "max_v": 3.2269676535722756,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "mute",
+      "c11_f": 7e-09,
+      "min_v": 1.4966109845480864,
+      "max_v": 3.297247172317412,
+      "settled_pass": true
+    },
+    {
+      "before": "seek_down",
+      "after": "mute",
+      "c11_f": 1.3e-08,
+      "min_v": 1.496611466763408,
+      "max_v": 3.22671519883484,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "release",
+      "c11_f": 7e-09,
+      "min_v": 2.2449318451380855,
+      "max_v": 3.2999999821399966,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "release",
+      "c11_f": 1.3e-08,
+      "min_v": 2.244932066245717,
+      "max_v": 3.2999999821399912,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "volume_down",
+      "c11_f": 7e-09,
+      "min_v": 0.3002785094730784,
+      "max_v": 3.3007877007099764,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "volume_down",
+      "c11_f": 1.3e-08,
+      "min_v": 0.3002785077481707,
+      "max_v": 3.257823160504153,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "volume_up",
+      "c11_f": 7e-09,
+      "min_v": 0.7073811354478637,
+      "max_v": 3.304903621152273,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "volume_up",
+      "c11_f": 1.3e-08,
+      "min_v": 0.7073811105898615,
+      "max_v": 3.2602035999315953,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "source",
+      "c11_f": 7e-09,
+      "min_v": 0.9537255508047596,
+      "max_v": 3.3007397668084493,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "source",
+      "c11_f": 1.3e-08,
+      "min_v": 0.9537256012474785,
+      "max_v": 3.257836564991417,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "seek_up",
+      "c11_f": 7e-09,
+      "min_v": 1.2336644855695205,
+      "max_v": 3.3043909569654346,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "seek_up",
+      "c11_f": 1.3e-08,
+      "min_v": 1.2336645343883799,
+      "max_v": 3.2599485574090803,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "seek_down",
+      "c11_f": 7e-09,
+      "min_v": 1.496612270130086,
+      "max_v": 3.3006339184980713,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "seek_down",
+      "c11_f": 1.3e-08,
+      "min_v": 1.4966122808152058,
+      "max_v": 3.257808584516628,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "mute",
+      "c11_f": 7e-09,
+      "min_v": 2.2449318451380855,
+      "max_v": 3.299628816755459,
+      "settled_pass": true
+    },
+    {
+      "before": "phone",
+      "after": "mute",
+      "c11_f": 1.3e-08,
+      "min_v": 2.244932066245717,
+      "max_v": 3.25734206729212,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "release",
+      "c11_f": 7e-09,
+      "min_v": 2.6720766805060086,
+      "max_v": 3.2999999821399966,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "release",
+      "c11_f": 1.3e-08,
+      "min_v": 2.6720767971940527,
+      "max_v": 3.299999982139992,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "volume_down",
+      "c11_f": 7e-09,
+      "min_v": 0.30027850947221074,
+      "max_v": 3.3021743062046833,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "volume_down",
+      "c11_f": 1.3e-08,
+      "min_v": 0.30027850770479836,
+      "max_v": 3.2755342491359616,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "volume_up",
+      "c11_f": 7e-09,
+      "min_v": 0.7073811354373647,
+      "max_v": 3.306287147983186,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "volume_up",
+      "c11_f": 1.3e-08,
+      "min_v": 0.7073811100659477,
+      "max_v": 3.2779010362499084,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "source",
+      "c11_f": 7e-09,
+      "min_v": 0.9537255507981222,
+      "max_v": 3.302124346415943,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "source",
+      "c11_f": 1.3e-08,
+      "min_v": 0.9537256012471982,
+      "max_v": 3.2755297010269433,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "seek_up",
+      "c11_f": 7e-09,
+      "min_v": 1.2336644869361681,
+      "max_v": 3.305772159874585,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "seek_up",
+      "c11_f": 1.3e-08,
+      "min_v": 1.2336645343883794,
+      "max_v": 3.2776271714238634,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "seek_down",
+      "c11_f": 7e-09,
+      "min_v": 1.4966122701753286,
+      "max_v": 3.3020162003169977,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "seek_down",
+      "c11_f": 1.3e-08,
+      "min_v": 1.4966122808152054,
+      "max_v": 3.2754877002342413,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "phone",
+      "c11_f": 7e-09,
+      "min_v": 2.244932404077273,
+      "max_v": 3.301620200839541,
+      "settled_pass": true
+    },
+    {
+      "before": "mute",
+      "after": "phone",
+      "c11_f": 1.3e-08,
+      "min_v": 2.244932404077272,
+      "max_v": 3.2752936618995983,
+      "settled_pass": true
+    }
+  ]
+}

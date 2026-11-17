@@ -1,0 +1,26 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.6*%
+%TF.CreationDate,2026-09-30T10:20:17-07:00*%
+%TF.ProjectId,tacoma_swc_only,7461636f-6d61-45f7-9377-635f6f6e6c79,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.6) date 2026-09-30 10:20:17*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X0Y0D02*
+X65000000Y0D01*
+X0Y-55000000D02*
+X0Y0D01*
+X65000000Y0D02*
+X65000000Y-55000000D01*
+X65000000Y-55000000D02*
+X0Y-55000000D01*
+M02*

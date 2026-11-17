@@ -1,0 +1,100 @@
+stdout n24                                        3.3
+stdout vpress#branch                                0
+stdout vmcu7#branch                       3.76089e-22
+stdout vmcu6#branch                       3.76089e-22
+stdout vmcu5#branch                       3.76089e-22
+stdout vmcu3#branch                       3.76089e-22
+stdout vmcu1#branch                       3.76089e-22
+stdout vradio#branch                         -3.8e-11
+stdout vacc#branch                                  0
+stdout vlogic#branch                       -0.0100591
+stdout No. of Data Rows : 2504
+stdout Note: No compatibility mode selected!
+stdout Circuit: swc behavioral test from exported kicad netlist
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout n0                                         3.3
+stdout acc_stub                                    12
+stdout radio_internal                             3.3
+stdout n31                                        3.3
+stdout n30                                    3.8e-17
+stdout n28                                    2.95513
+stdout n29                                    2.95513
+stdout n14                                    3.02014
+stdout n15                                    3.02014
+stdout n6                                     2.95513
+stdout n7                                     2.95513
+stdout drive1                                       0
+stdout n12                                1.50435e-20
+stdout n17                                3.91132e-19
+stdout n16                                        3.3
+stdout drive3                                       0
+stdout n8                                 1.50435e-20
+stdout n19                                3.91132e-19
+stdout n18                                        3.3
+stdout drive5                                       0
+stdout n11                                1.50435e-20
+stdout n21                                3.91132e-19
+stdout n20                                        3.3
+stdout drive6                                       0
+stdout n9                                 1.50435e-20
+stdout n23                                3.91132e-19
+stdout n22                                        3.3
+stdout drive7                                       0
+stdout n10                                1.50435e-20
+stdout n25                                3.91132e-19
+stdout n24                                        3.3
+stdout vmcu7#branch                       3.76089e-22
+stdout vmcu6#branch                       3.76089e-22
+stdout vmcu5#branch                       3.76089e-22
+stdout vmcu3#branch                       3.76089e-22
+stdout vmcu1#branch                       3.76089e-22
+stdout vradio#branch                         -3.8e-11
+stdout vacc#branch                                  0
+stdout vlogic#branch                       -0.0100591
+ Reference value :  1.50828e-02
+stdout No. of Data Rows : 10876
+stdout Note: No compatibility mode selected!
+stdout Circuit: swc behavioral test from exported kicad netlist
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout No. of Data Rows : 1
+stdout Note: No compatibility mode selected!
+stdout Circuit: swc behavioral test from exported kicad netlist
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout No. of Data Rows : 1
+stdout Note: No compatibility mode selected!
+stdout Circuit: swc behavioral test from exported kicad netlist
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout No. of Data Rows : 1
+stdout Note: No compatibility mode selected!
+stdout Circuit: swc behavioral test from exported kicad netlist
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout No. of Data Rows : 1
+stdout Note: No compatibility mode selected!
+stdout Circuit: swc behavioral test from exported kicad netlist
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout No. of Data Rows : 1
+stdout Note: No compatibility mode selected!
+stdout Circuit: swc behavioral test from exported kicad netlist
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout No. of Data Rows : 1
+stdout Note: No compatibility mode selected!
+stdout Circuit: swc behavioral test from exported kicad netlist
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout No. of Data Rows : 1
+stdout Note: No compatibility mode selected!
+stdout Circuit: swc behavioral test from exported kicad netlist
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout No. of Data Rows : 1

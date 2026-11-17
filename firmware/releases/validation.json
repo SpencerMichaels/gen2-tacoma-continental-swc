@@ -1,0 +1,20 @@
+{
+  "status": "BENCH_VERIFIED_WITH_RADIO_NOT_VEHICLE_TESTED",
+  "platform_commit": "5d4561a05e3b212660ac6fdd3fbfb328d1988aa1",
+  "arduino_pico_commit": "fd65f6d4ab168d4bb181a3709738fe353ac93585",
+  "clock_hz": 50000000,
+  "host_tests": "625 boundary pairs; all 65536 uint16 classifications; seven command timing cases; debounce; hold timeout; invalid/rearm; disconnect; millis rollover; ASan/UBSan passed; RC settling regression, persistent invalid lockout, simultaneous inputs, settling timer rollover",
+  "hardware_contract": "GPIO mapping and output masks checked against design_intent.json/output_commands.json",
+  "files": {
+    "tacoma-swc-bench.uf2": "7062a09f9fb329edbc078a61407b035c4e4cc36f9526874a53401933a9d886c9",
+    "tacoma-swc-vehicle.uf2": "b337ae535c611c5f6a6ced45180d773ff6c6f5e1b610438b1f781d0772904380",
+    "src/main.cpp": "a021f940d65c78d05f8a084e6ca6a2b8c7825ad76e52c4a5779d7d5100c141fd",
+    "include/swc_logic.h": "f5bf446ac913fb5e2258069e8e700778ac1bd26f53d247b05cea8a0e5fb35ab7",
+    "platformio.ini": "1518f00688f56b92dae0fca52329ad5c8176de750d230f09ca09c1c7ccb12da5"
+  },
+  "validated_date": "2026-11-16",
+  "analog_firmware_integration": "3024 cases PASS_WITH_MODEL_LIMITATIONS; actual portable C++ Wheel logic driven by ngspice waveforms. Fixed RC settling gap lockout.",
+  "hardware_bench_2026-11-16": "Loose XIAO RP2040 on USB, bench build: help/status OK. Oct 9 drafts rebooted via watchdog on every output command (delayMicroseconds->sleep_us inside IRQ-disabled section never returns). Fixed with busy_wait_us_32. After fix: volume_down, phone, volume_up, mute each 'pulse accepted' then release, boots=1, no USB drop. status now reports up/boots/reset cause. Not yet tested on carrier, radio, wheel inputs, or current draw.",
+  "carrier_power_2026-11-16": "Carrier 1, XIAO out, JP1 off, 12 V ACC: JP1.1 (REG5) ~5 V, JP1.2 0 V, supply current below 1 mA display resolution. XIAO seated, USB only, JP1 off: SW1/SW2 idle ~4037 counts. XIAO seated, JP1 fitted, 12 V ACC, no USB: 25 mA total; U1, C3 and R1 not noticeably warm. Wheel-input resistor bands NOT bench-tested; ranges left as simulated.",
+  "radio_outputs_2026-11-16": "Carrier 1 on USB (JP1 off), TP3->radio SWC tip, TP4->sleeve, Continental on bench 12 V (0.45 A idle, no speakers). Bench build, single 300 ms pulses: volume_down, volume_up (paired), source, seek_up, seek_down all acted once. mute toggled mic mute on and off during a call. phone during a connected call hung up; answer-on-ring not tested. No resets (boots=1) and output released after every command."
+}

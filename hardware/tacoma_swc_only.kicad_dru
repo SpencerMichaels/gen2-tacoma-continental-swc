@@ -1,0 +1,5 @@
+(version 1)
+# Deliberate assembly/contamination margin; not a certified isolation barrier.
+(rule "ACC to radio output separation"
+ (condition "((A.NetName == 'ACC' || A.NetName == 'ACC_FUSED' || A.NetName == 'ACC_DIODE' || A.NetName == 'ACC_CLAMP') && (B.NetName == 'SWRC_PLUS' || B.NetName == 'Net-(Q1-D)' || B.NetName == 'Net-(Q3-D)' || B.NetName == 'Net-(Q5-D)' || B.NetName == 'Net-(Q6-D)' || B.NetName == 'Net-(Q7-D)')) || ((B.NetName == 'ACC' || B.NetName == 'ACC_FUSED' || B.NetName == 'ACC_DIODE' || B.NetName == 'ACC_CLAMP') && (A.NetName == 'SWRC_PLUS' || A.NetName == 'Net-(Q1-D)' || A.NetName == 'Net-(Q3-D)' || A.NetName == 'Net-(Q5-D)' || A.NetName == 'Net-(Q6-D)' || A.NetName == 'Net-(Q7-D)'))")
+ (constraint clearance (min 2mm)))

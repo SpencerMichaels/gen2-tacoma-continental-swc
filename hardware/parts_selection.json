@@ -1,0 +1,333 @@
+{
+  "date": "2026-10-09",
+  "status": "Built (PCBWay assembly, 2026) and bench-tested with the Continental radio",
+  "parts": {
+    "R2": {
+      "mpn": "RT0805BRD0730K1L",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L",
+      "assembly": "FACTORY_SMT",
+      "value": "30.1k 0.1%",
+      "note": "0.1%,25ppm/C; LT3012 setpoint nominal4.9733V"
+    },
+    "R3": {
+      "mpn": "RT0805BRD0710KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R4": {
+      "mpn": "RC1206FR-07330RL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT",
+      "note": "330R bleed on3V3: nominal10mA/33mW; sinks limited ADC clamp current."
+    },
+    "R5": {
+      "mpn": "RC1206FR-072K2L",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R6": {
+      "mpn": "RC1206FR-072K2L",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R7": {
+      "mpn": "RC0805FR-0722KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R8": {
+      "mpn": "RC0805FR-0722KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R11": {
+      "mpn": "RC0805FR-0747RL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R13": {
+      "mpn": "RC0805FR-07191RL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R15": {
+      "mpn": "RC0805FR-07390RL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R16": {
+      "mpn": "RC0805FR-071KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R21": {
+      "mpn": "RC0805FR-071KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R23": {
+      "mpn": "RC0805FR-071KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R25": {
+      "mpn": "RC0805FR-071KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R26": {
+      "mpn": "RC0805FR-071KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R27": {
+      "mpn": "RC0805FR-071KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R17": {
+      "mpn": "RC0805FR-072KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R31": {
+      "mpn": "RC0805FR-07100KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R33": {
+      "mpn": "RC0805FR-07100KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R35": {
+      "mpn": "RC0805FR-07100KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R36": {
+      "mpn": "RC0805FR-07100KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R37": {
+      "mpn": "RC0805FR-07100KL",
+      "manufacturer": "YAGEO",
+      "source": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "assembly": "FACTORY_SMT"
+    },
+    "R1": {
+      "mpn": "AC01000001009JA100",
+      "manufacturer": "Vishay",
+      "source": "https://www.vishay.com/docs/28730/ac_ac-at_ac-ni.pdf",
+      "assembly": "HAND_FIT_THT",
+      "footprint": "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal",
+      "note": "10 ohm 5%, wirewound flameproof AC01; 1W at 40C / 0.9W at 70C; 20.32mm formed lead pitch; pulse/fault review still required"
+    },
+    "C1": {
+      "mpn": "EEE-FK1J470P",
+      "manufacturer": "Panasonic",
+      "source": "https://industrial.panasonic.com/tw/products/pt/aluminum-cap-smd/models/EEEFK1J470P",
+      "assembly": "FACTORY_SMT",
+      "footprint": "Capacitor_SMD:CP_Elec_8x10.5",
+      "note": "47uF 63V +/-20%, 105C; 8mm diameter, 10.2mm nominal height; polarized SMT can"
+    },
+    "C2": {
+      "mpn": "GRM32ER71J106KA12L",
+      "manufacturer": "Murata",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71J106KA12-04A.pdf",
+      "assembly": "FACTORY_SMT"
+    },
+    "C3": {
+      "mpn": "TCJB226M025R0100E",
+      "manufacturer": "KYOCERA AVX",
+      "source": "https://datasheets.kyocera-avx.com/TCJ.pdf",
+      "assembly": "FACTORY_SMT",
+      "value": "22uF 25V polymer",
+      "footprint": "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B",
+      "note": "B case3.5x2.8x1.9mm; positive pad1; 22uF20%,100mOhm ESR,105C max; no MLCC DC-bias loss"
+    },
+    "C4": {
+      "mpn": "GRM31CR71E106KA12L",
+      "manufacturer": "Murata",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01CA.pdf",
+      "assembly": "FACTORY_SMT",
+      "value": "10uF 25V X7R",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "note": "10uF +/-10%,25V X7R; local decoupling. C4=module5V; C7=3V3."
+    },
+    "C7": {
+      "mpn": "GRM31CR71E106KA12L",
+      "manufacturer": "Murata",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01CA.pdf",
+      "assembly": "FACTORY_SMT",
+      "value": "10uF 25V X7R",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "note": "10uF +/-10%,25V X7R; local decoupling. C4=module5V; C7=3V3."
+    },
+    "C5": {
+      "mpn": "C0805C103K5RACTU",
+      "manufacturer": "KEMET / YAGEO",
+      "source": "https://yageogroup.com/download/specsheet/C0805C103K5RACTU",
+      "assembly": "FACTORY_SMT"
+    },
+    "C6": {
+      "mpn": "C0805C103K5RACTU",
+      "manufacturer": "KEMET / YAGEO",
+      "source": "https://yageogroup.com/download/specsheet/C0805C103K5RACTU",
+      "assembly": "FACTORY_SMT"
+    },
+    "C8": {
+      "mpn": "C0805C104K5RACTU",
+      "manufacturer": "KEMET / YAGEO",
+      "source": "https://yageogroup.com/download/specsheet/C0805C104K5RACTU",
+      "assembly": "FACTORY_SMT",
+      "value": "100nF 50V X7R"
+    },
+    "C10": {
+      "mpn": "GRM21BR71C225KA12L",
+      "manufacturer": "Murata",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71C225KA12-01A.pdf",
+      "assembly": "FACTORY_SMT"
+    },
+    "F1": {
+      "mpn": "0451.250MRL",
+      "manufacturer": "Littelfuse",
+      "source": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+      "assembly": "FACTORY_SMT",
+      "footprint": "Tacoma_Mechanical:Littelfuse_451_6.1x2.69mm",
+      "note": "250mA very fast; custom land pattern from 451/453 drawing; nominal melting I2t 0.0158 A2s, not guaranteed clearing I2t"
+    },
+    "U1": {
+      "mpn": "LT3012EDE#WPBF",
+      "manufacturer": "Analog Devices",
+      "source": "https://www.analog.com/media/en/technical-documentation/data-sheets/lt3012.pdf",
+      "assembly": "FACTORY_SMT",
+      "footprint": "Package_DFN_QFN:DFN-12-1EP_3x4mm_P0.5mm_EP1.7x3.3mm",
+      "note": "DE12 EP13 GND; reverse-protected; nominal4.973V;60mA output allocation requires bench verification.",
+      "value": "LT3012EDE"
+    },
+    "D1": {
+      "mpn": "STPS1H100A",
+      "manufacturer": "STMicroelectronics",
+      "source": "https://www.st.com/resource/en/datasheet/stps1h100.pdf",
+      "assembly": "FACTORY_SMT"
+    },
+    "D2": {
+      "mpn": "SMBJ24A",
+      "manufacturer": "Littelfuse",
+      "source": "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf",
+      "assembly": "FACTORY_SMT"
+    },
+    "D5": {
+      "mpn": "BAS70,215",
+      "manufacturer": "Nexperia",
+      "source": "https://assets.nexperia.com/documents/data-sheet/BAS70.pdf",
+      "assembly": "FACTORY_SMT"
+    },
+    "D6": {
+      "mpn": "BAS70,215",
+      "manufacturer": "Nexperia",
+      "source": "https://assets.nexperia.com/documents/data-sheet/BAS70.pdf",
+      "assembly": "FACTORY_SMT"
+    },
+    "D7": {
+      "mpn": "BAS70-04,215",
+      "manufacturer": "Nexperia",
+      "source": "https://assets.nexperia.com/documents/data-sheet/BAS70-04.pdf",
+      "assembly": "FACTORY_SMT"
+    },
+    "D8": {
+      "mpn": "BAS70-04,215",
+      "manufacturer": "Nexperia",
+      "source": "https://assets.nexperia.com/documents/data-sheet/BAS70-04.pdf",
+      "assembly": "FACTORY_SMT"
+    },
+    "Q1": {
+      "mpn": "AO3400A",
+      "manufacturer": "Alpha and Omega Semiconductor",
+      "source": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf",
+      "assembly": "FACTORY_SMT"
+    },
+    "Q3": {
+      "mpn": "AO3400A",
+      "manufacturer": "Alpha and Omega Semiconductor",
+      "source": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf",
+      "assembly": "FACTORY_SMT"
+    },
+    "Q5": {
+      "mpn": "AO3400A",
+      "manufacturer": "Alpha and Omega Semiconductor",
+      "source": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf",
+      "assembly": "FACTORY_SMT"
+    },
+    "Q6": {
+      "mpn": "AO3400A",
+      "manufacturer": "Alpha and Omega Semiconductor",
+      "source": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf",
+      "assembly": "FACTORY_SMT"
+    },
+    "Q7": {
+      "mpn": "AO3400A",
+      "manufacturer": "Alpha and Omega Semiconductor",
+      "source": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf",
+      "assembly": "FACTORY_SMT"
+    },
+    "J1": {
+      "mpn": "43045-1209",
+      "manufacturer": "Molex",
+      "source": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430450209_sd.pdf",
+      "assembly": "FACTORY_SMT",
+      "value": "Molex 43045-1209",
+      "note": "New factory-installed SMT header; verified loose-plug mating face, latch up: top pins 7-12, bottom 1-6. Retention MP pads unconnected.",
+      "footprint": "Tacoma_Mechanical:Molex_43045_12_SMT_SeparateRetentionPads"
+    },
+    "A1": {
+      "mpn": "102010428",
+      "manufacturer": "Seeed Studio",
+      "source": "https://files.seeedstudio.com/wiki/XIAO-RP2040/res/Seeed-Studio-XIAO-RP2040-v1.3.pdf",
+      "assembly": "USER_PLUG_IN_MODULE",
+      "value": "XIAO RP2040 (standard)",
+      "footprint": "Tacoma_Mechanical:XIAO_RP2040_Socket_2x7",
+      "note": "Standard module, not Plus. Two 1x7 sockets, pitch2.54mm, row spacing15.24mm. Remove JP1 shunt before USB."
+    },
+    "JP1": {
+      "mpn": "TSW-102-07-G-S",
+      "manufacturer": "Samtec",
+      "source": "https://www.samtec.com/products/tsw-102-07-g-s",
+      "value": "RUN power / REMOVE FOR USB",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "assembly": "USER_THT",
+      "note": "Fit removable 2.54mm shunt for ACC operation; REMOVE before plugging USB. Shunt is a separate accessory."
+    },
+    "C11": {
+      "mpn": "C0805C103K5RACTU",
+      "manufacturer": "KEMET / YAGEO",
+      "source": "https://yageogroup.com/download/specsheet/C0805C103K5RACTU",
+      "assembly": "FACTORY_SMT",
+      "value": "10nF 50V X7R",
+      "note": "SWRC+ to SWRC_GND switching-feedthrough filter; not an ACC fault clamp."
+    }
+  }
+}

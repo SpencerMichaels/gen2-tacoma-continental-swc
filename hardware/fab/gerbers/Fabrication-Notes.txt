@@ -1,0 +1,6 @@
+Tacoma SWC carrier - fabrication
+
+65 x 55 mm, 2 layers, 1.6 mm FR-4, 1 oz finished copper, ENIG, green soldermask, white silkscreen.
+Route to Edge.Cuts centerline. These specifications override unspecified finish and stroke-inclusive dimensions in the Gerber job file.
+Drill diameters are finished sizes. Confirm tolerance for fourteen 1.04 mm socket holes. Four 3.2 mm mounting holes are nonplated.
+Bare-board electrical test required. Supplier panelization permitted without changing individual board geometry.

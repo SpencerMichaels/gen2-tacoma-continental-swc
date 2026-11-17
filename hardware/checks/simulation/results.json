@@ -1,0 +1,1144 @@
+{
+  "status": "PASS_WITH_MODEL_LIMITATIONS",
+  "engine": "stdout ******\nstdout ** ngspice-45.2 shared library\nstdout ******\nstdout ******\nstdout ** ngspice-45.2 : Circuit level simulation program\nstdout ** Compiled with KLU Direct Linear Solver\nstdout ** The U. C. Berkeley CAD Group\nstdout ** Copyright 1985-1994, Regents of the University of California.\nstdout ** Copyright 2001-2025, The ngspice team.\nstdout ** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\nstdout ** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html\nstdout ******",
+  "netlist_sha256": "9ba9b490f5e84117569970c3cd843be01c53250e6678c28d9a2bcaa719ad028d",
+  "input_spice_operating_points": 3249,
+  "adc_decode_checks": 29241,
+  "end_to_end_output_operating_points": 3249,
+  "all_mask_dc_operating_points": 2304,
+  "transient_cases": 63,
+  "explicit_fault_cases": 2,
+  "failures": [],
+  "reset_cases": [
+    {
+      "logic_supply_v": 0,
+      "radio_supply_v": 0,
+      "output_v": -1.3523330178105915e-51,
+      "gate_voltages_v": [
+        -6.146967633870264e-68,
+        -6.146967633870264e-68,
+        -6.146967633870264e-68,
+        -6.146967633870264e-68,
+        -6.146967633870264e-68
+      ]
+    },
+    {
+      "logic_supply_v": 0,
+      "radio_supply_v": 3.3,
+      "output_v": 3.299999916400023,
+      "gate_voltages_v": [
+        -3.7999988170105615e-24,
+        -3.7999988170105615e-24,
+        -3.7999988170105615e-24,
+        -3.7999988170105615e-24,
+        -3.7999988170105615e-24
+      ]
+    },
+    {
+      "logic_supply_v": 0,
+      "radio_supply_v": 5,
+      "output_v": 4.999999878999989,
+      "gate_voltages_v": [
+        -5.4999991090760644e-24,
+        -5.4999991090760644e-24,
+        -5.4999991090760644e-24,
+        -5.4999991090760644e-24,
+        -5.4999991090760644e-24
+      ]
+    },
+    {
+      "logic_supply_v": 3.3,
+      "radio_supply_v": 0,
+      "output_v": -8.256523964974844e-26,
+      "gate_voltages_v": [
+        -3.752965053347137e-42,
+        -3.752965053347137e-42,
+        -3.752965053347137e-42,
+        -3.752965053347137e-42,
+        -3.752965053347137e-42
+      ]
+    },
+    {
+      "logic_supply_v": 3.3,
+      "radio_supply_v": 3.3,
+      "output_v": 3.299999916400023,
+      "gate_voltages_v": [
+        -3.7999988170105615e-24,
+        -3.7999988170105615e-24,
+        -3.7999988170105615e-24,
+        -3.7999988170105615e-24,
+        -3.7999988170105615e-24
+      ]
+    },
+    {
+      "logic_supply_v": 3.3,
+      "radio_supply_v": 5,
+      "output_v": 4.999999878999989,
+      "gate_voltages_v": [
+        -5.4999991090760644e-24,
+        -5.4999991090760644e-24,
+        -5.4999991090760644e-24,
+        -5.4999991090760644e-24,
+        -5.4999991090760644e-24
+      ]
+    }
+  ],
+  "debounce_cases": [
+    {
+      "line": 1,
+      "wheel_ohms": 0.001,
+      "command": "seek_up",
+      "events_s": [
+        [
+          0,
+          "release"
+        ],
+        [
+          0.024,
+          "seek_up"
+        ],
+        [
+          0.061,
+          "release"
+        ]
+      ],
+      "settled_ohms": [
+        280.6041613146516,
+        280.6041613146516
+      ]
+    },
+    {
+      "line": 1,
+      "wheel_ohms": 329,
+      "command": "seek_down",
+      "events_s": [
+        [
+          0,
+          "release"
+        ],
+        [
+          0.024,
+          "seek_down"
+        ],
+        [
+          0.061,
+          "release"
+        ]
+      ],
+      "settled_ohms": [
+        390.0479985845073,
+        390.0479985845073
+      ]
+    },
+    {
+      "line": 1,
+      "wheel_ohms": 1000,
+      "command": "volume_up",
+      "events_s": [
+        [
+          0,
+          "release"
+        ],
+        [
+          0.024,
+          "volume_up"
+        ],
+        [
+          0.061,
+          "release"
+        ]
+      ],
+      "settled_ohms": [
+        128.2367985636792,
+        128.2367985636792
+      ]
+    },
+    {
+      "line": 1,
+      "wheel_ohms": 3110,
+      "command": "volume_down",
+      "events_s": [
+        [
+          0,
+          "release"
+        ],
+        [
+          0.024,
+          "volume_down"
+        ],
+        [
+          0.061,
+          "release"
+        ]
+      ],
+      "settled_ohms": [
+        47.04800089280283,
+        47.04800089280283
+      ]
+    },
+    {
+      "line": 2,
+      "wheel_ohms": 0.001,
+      "command": "source",
+      "events_s": [
+        [
+          0,
+          "release"
+        ],
+        [
+          0.024,
+          "source"
+        ],
+        [
+          0.061,
+          "release"
+        ]
+      ],
+      "settled_ohms": [
+        191.0480001795101,
+        191.0480001795101
+      ]
+    },
+    {
+      "line": 2,
+      "wheel_ohms": 329,
+      "command": "mute",
+      "events_s": [
+        [
+          0,
+          "release"
+        ],
+        [
+          0.024,
+          "mute"
+        ],
+        [
+          0.061,
+          "release"
+        ]
+      ],
+      "settled_ohms": [
+        2000.047958857974,
+        2000.047958857974
+      ]
+    },
+    {
+      "line": 2,
+      "wheel_ohms": 1000,
+      "command": "phone",
+      "events_s": [
+        [
+          0,
+          "release"
+        ],
+        [
+          0.024,
+          "phone"
+        ],
+        [
+          0.061,
+          "release"
+        ]
+      ],
+      "settled_ohms": [
+        1000.0479891520527,
+        1000.0479891520527
+      ]
+    }
+  ],
+  "safety_claim_12v_impossible": "REFUTED_BY_ACC_TO_SWRC_BRIDGE_COUNTEREXAMPLE",
+  "nominal_command_examples": [
+    {
+      "line": "SW1",
+      "button": "zero",
+      "command": "seek_up",
+      "adc": 2.07,
+      "ohms": 280.60416026555066
+    },
+    {
+      "line": "SW1",
+      "button": "330",
+      "command": "seek_down",
+      "adc": 469.68,
+      "ohms": 390.04799755887376
+    },
+    {
+      "line": "SW1",
+      "button": "1k",
+      "command": "volume_up",
+      "adc": 1131.62,
+      "ohms": 128.23679751759371
+    },
+    {
+      "line": "SW1",
+      "button": "3k1",
+      "command": "volume_down",
+      "adc": 2133.38,
+      "ohms": 47.04799987056365
+    },
+    {
+      "line": "SW2",
+      "button": "zero",
+      "command": "source",
+      "adc": 2.07,
+      "ohms": 191.04799915584582
+    },
+    {
+      "line": "SW2",
+      "button": "330",
+      "command": "mute",
+      "adc": 469.68,
+      "ohms": 2000.0479578164122
+    },
+    {
+      "line": "SW2",
+      "button": "1k",
+      "command": "phone",
+      "adc": 1131.62,
+      "ohms": 1000.0479881203815
+    }
+  ],
+  "output_ohm_ranges": {
+    "volume_down": [
+      46.53999977562568,
+      47.56999996221017
+    ],
+    "volume_up": [
+      126.9334685917395,
+      129.547946224997
+    ],
+    "source": [
+      189.0999977563249,
+      193.00999959960416
+    ],
+    "seek_up": [
+      277.7757442251182,
+      283.4409224010159
+    ],
+    "seek_down": [
+      386.1099940810634,
+      393.99999848577954
+    ],
+    "phone": [
+      990.0099789965515,
+      1010.0999906415415
+    ],
+    "mute": [
+      1980.0099398933805,
+      2020.0999633293509
+    ]
+  },
+  "radio_off_max_dc_voltage_v": 3.8470033511263764e-11,
+  "transient_results": [
+    {
+      "command": "volume_down",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.30027428808444406,
+      "max_v": 3.303145978853816,
+      "settled_ohms": [
+        47.04800095797868,
+        47.04800095797868
+      ],
+      "final_v": 3.299999982139935
+    },
+    {
+      "command": "volume_down",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.3002744034710168,
+      "max_v": 3.302906454763924,
+      "settled_ohms": [
+        47.04800095797866,
+        47.04800095797866
+      ],
+      "final_v": 3.299999982140015
+    },
+    {
+      "command": "volume_down",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.3002753583315823,
+      "max_v": 3.3016499851450023,
+      "settled_ohms": [
+        47.04800095797861,
+        47.04800095797861
+      ],
+      "final_v": 3.2999999821400086
+    },
+    {
+      "command": "volume_down",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.1482776649009927,
+      "max_v": 3.3032232949654694,
+      "settled_ohms": [
+        47.04800093387963,
+        47.04800093387963
+      ],
+      "final_v": 3.299999961999712
+    },
+    {
+      "command": "volume_down",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.1482777888394041,
+      "max_v": 3.3029723810460188,
+      "settled_ohms": [
+        47.04800093387961,
+        47.04800093387961
+      ],
+      "final_v": 3.2999999619997045
+    },
+    {
+      "command": "volume_down",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.14827879977621905,
+      "max_v": 3.301671020308147,
+      "settled_ohms": [
+        47.048000933879656,
+        47.048000933879656
+      ],
+      "final_v": 3.2999999619999074
+    },
+    {
+      "command": "volume_down",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.01544864597493466,
+      "max_v": 3.3032867934014627,
+      "settled_ohms": [
+        47.04800087061932,
+        47.04800087061932
+      ],
+      "final_v": 3.2999996199993484
+    },
+    {
+      "command": "volume_down",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.015448778919843958,
+      "max_v": 3.3030263917602616,
+      "settled_ohms": [
+        47.04800087061932,
+        47.04800087061932
+      ],
+      "final_v": 3.2999996199993413
+    },
+    {
+      "command": "volume_down",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.015449815196881173,
+      "max_v": 3.301687593842372,
+      "settled_ohms": [
+        47.0480008706195,
+        47.0480008706195
+      ],
+      "final_v": 3.2999996101683835
+    },
+    {
+      "command": "volume_up",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.707378690372198,
+      "max_v": 3.306125998115037,
+      "settled_ohms": [
+        128.23679872881792,
+        128.23679872881792
+      ],
+      "final_v": 3.299999982139935
+    },
+    {
+      "command": "volume_up",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.7073788140318127,
+      "max_v": 3.305659476201426,
+      "settled_ohms": [
+        128.23679872881792,
+        128.23679872881792
+      ],
+      "final_v": 3.2999999821400143
+    },
+    {
+      "command": "volume_up",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.707379611744776,
+      "max_v": 3.303212885018083,
+      "settled_ohms": [
+        128.23679872881718,
+        128.23679872881718
+      ],
+      "final_v": 3.299999982140008
+    },
+    {
+      "command": "volume_up",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.3750795215477594,
+      "max_v": 3.3062752001741402,
+      "settled_ohms": [
+        128.23679867763863,
+        128.23679867763863
+      ],
+      "final_v": 3.2999999619997133
+    },
+    {
+      "command": "volume_up",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.37507965818128564,
+      "max_v": 3.305786228025051,
+      "settled_ohms": [
+        128.23679867763855,
+        128.23679867763855
+      ],
+      "final_v": 3.2999999619997045
+    },
+    {
+      "command": "volume_up",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.375080518290796,
+      "max_v": 3.30325308763112,
+      "settled_ohms": [
+        128.23679867764073,
+        128.23679867764073
+      ],
+      "final_v": 3.299999961999907
+    },
+    {
+      "command": "volume_up",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.04177961522798852,
+      "max_v": 3.306397759410259,
+      "settled_ohms": [
+        128.2367981472421,
+        128.2367981472421
+      ],
+      "final_v": 3.2999996199993467
+    },
+    {
+      "command": "volume_up",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.04177976353221491,
+      "max_v": 3.305890376504712,
+      "settled_ohms": [
+        128.2367981472421,
+        128.2367981472421
+      ],
+      "final_v": 3.2999996199993418
+    },
+    {
+      "command": "volume_up",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.041780681400993475,
+      "max_v": 3.3032853768573487,
+      "settled_ohms": [
+        128.23679814724252,
+        128.23679814724252
+      ],
+      "final_v": 3.2999996102392966
+    },
+    {
+      "command": "source",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.9537237818872197,
+      "max_v": 3.303106607834718,
+      "settled_ohms": [
+        191.04800056147602,
+        191.04800056147602
+      ],
+      "final_v": 3.2999999821399344
+    },
+    {
+      "command": "source",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.9537238861844813,
+      "max_v": 3.302869851551009,
+      "settled_ohms": [
+        191.04800056147587,
+        191.04800056147587
+      ],
+      "final_v": 3.2999999821400157
+    },
+    {
+      "command": "source",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.9537245138880956,
+      "max_v": 3.3016293701220594,
+      "settled_ohms": [
+        191.04800056148008,
+        191.04800056148008
+      ],
+      "final_v": 3.2999999821400086
+    },
+    {
+      "command": "source",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.5293288933382222,
+      "max_v": 3.30318269396149,
+      "settled_ohms": [
+        191.04800044407355,
+        191.04800044407355
+      ],
+      "final_v": 3.2999999619997125
+    },
+    {
+      "command": "source",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.5293290078398236,
+      "max_v": 3.3029347631586545,
+      "settled_ohms": [
+        191.0480004440736,
+        191.0480004440736
+      ],
+      "final_v": 3.2999999619997027
+    },
+    {
+      "command": "source",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.5293296866210304,
+      "max_v": 3.3016498701892507,
+      "settled_ohms": [
+        191.04800044407517,
+        191.04800044407517
+      ],
+      "final_v": 3.2999999619999065
+    },
+    {
+      "command": "source",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.06186191421767573,
+      "max_v": 3.303245121789852,
+      "settled_ohms": [
+        191.04799882375406,
+        191.04799882375406
+      ],
+      "final_v": 3.2999996199993475
+    },
+    {
+      "command": "source",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.06186203921982947,
+      "max_v": 3.302987906542082,
+      "settled_ohms": [
+        191.0479988237535,
+        191.0479988237535
+      ],
+      "final_v": 3.2999996199993427
+    },
+    {
+      "command": "source",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.061862769360015,
+      "max_v": 3.301666202400019,
+      "settled_ohms": [
+        191.04799882375374,
+        191.04799882375374
+      ],
+      "final_v": 3.2999996103059477
+    },
+    {
+      "command": "seek_up",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-10,
+      "min_v": 1.2336631903373527,
+      "max_v": 3.3057462211688065,
+      "settled_ohms": [
+        280.60416172110746,
+        280.60416172110746
+      ],
+      "final_v": 3.2999999821399344
+    },
+    {
+      "command": "seek_up",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-09,
+      "min_v": 1.2336632732809543,
+      "max_v": 3.3053078964937312,
+      "settled_ohms": [
+        280.6041617211076,
+        280.6041617211076
+      ],
+      "final_v": 3.2999999821400148
+    },
+    {
+      "command": "seek_up",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-08,
+      "min_v": 1.2336637563976918,
+      "max_v": 3.303011700495694,
+      "settled_ohms": [
+        280.6041617211114,
+        280.6041617211114
+      ],
+      "final_v": 3.2999999821400077
+    },
+    {
+      "command": "seek_up",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.7230898852294169,
+      "max_v": 3.3058828466260533,
+      "settled_ohms": [
+        280.6041615964427,
+        280.6041615964427
+      ],
+      "final_v": 3.299999961999712
+    },
+    {
+      "command": "seek_up",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.7230899772584759,
+      "max_v": 3.305424085125336,
+      "settled_ohms": [
+        280.6041615964417,
+        280.6041615964417
+      ],
+      "final_v": 3.2999999619997045
+    },
+    {
+      "command": "seek_up",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.723090500738112,
+      "max_v": 3.3030485946501327,
+      "settled_ohms": [
+        280.6041615964388,
+        280.6041615964388
+      ],
+      "final_v": 3.2999999619999065
+    },
+    {
+      "command": "seek_up",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.09007040674753404,
+      "max_v": 3.3059951304918234,
+      "settled_ohms": [
+        280.60415965872255,
+        280.60415965872255
+      ],
+      "final_v": 3.299999619999346
+    },
+    {
+      "command": "seek_up",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.0900705078261885,
+      "max_v": 3.3055193104270524,
+      "settled_ohms": [
+        280.60415965872204,
+        280.60415965872204
+      ],
+      "final_v": 3.2999996199993427
+    },
+    {
+      "command": "seek_up",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.09007107511432211,
+      "max_v": 3.303078139585093,
+      "settled_ohms": [
+        280.60415965871897,
+        280.60415965871897
+      ],
+      "final_v": 3.299999610382465
+    },
+    {
+      "command": "seek_down",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-10,
+      "min_v": 1.496611280066075,
+      "max_v": 3.3030252414775187,
+      "settled_ohms": [
+        390.0479993847999,
+        390.0479993847999
+      ],
+      "final_v": 3.2999999821399357
+    },
+    {
+      "command": "seek_down",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-09,
+      "min_v": 1.4966113442321303,
+      "max_v": 3.3027948220578685,
+      "settled_ohms": [
+        390.04799938479914,
+        390.04799938479914
+      ],
+      "final_v": 3.2999999821400134
+    },
+    {
+      "command": "seek_down",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-08,
+      "min_v": 1.496611712178967,
+      "max_v": 3.3015861257076584,
+      "settled_ohms": [
+        390.0479993848037,
+        390.0479993848037
+      ],
+      "final_v": 3.2999999821400077
+    },
+    {
+      "command": "seek_down",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.9259802024384338,
+      "max_v": 3.3030984030811985,
+      "settled_ohms": [
+        390.0479991395136,
+        390.0479991395136
+      ],
+      "final_v": 3.299999961999713
+    },
+    {
+      "command": "seek_down",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.9259802739982411,
+      "max_v": 3.302857229413049,
+      "settled_ohms": [
+        390.0479991395087,
+        390.0479991395087
+      ],
+      "final_v": 3.299999961999704
+    },
+    {
+      "command": "seek_down",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.9259806727198305,
+      "max_v": 3.301605843707541,
+      "settled_ohms": [
+        390.04799913951825,
+        390.04799913951825
+      ],
+      "final_v": 3.299999961999907
+    },
+    {
+      "command": "seek_down",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.1238826513760479,
+      "max_v": 3.3031586005534903,
+      "settled_ohms": [
+        390.04799510550265,
+        390.04799510550265
+      ],
+      "final_v": 3.2999996199993467
+    },
+    {
+      "command": "seek_down",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.12388273043425463,
+      "max_v": 3.3029080503208545,
+      "settled_ohms": [
+        390.04799510550015,
+        390.04799510550015
+      ],
+      "final_v": 3.2999996199993427
+    },
+    {
+      "command": "seek_down",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.12388316238964192,
+      "max_v": 3.30162159306936,
+      "settled_ohms": [
+        390.0479951055244,
+        390.0479951055244
+      ],
+      "final_v": 3.299999610490447
+    },
+    {
+      "command": "phone",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-10,
+      "min_v": 2.2449319829081973,
+      "max_v": 3.302732421089269,
+      "settled_ohms": [
+        1000.0479912319245,
+        1000.0479912319245
+      ],
+      "final_v": 3.299999982139934
+    },
+    {
+      "command": "phone",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-09,
+      "min_v": 2.244932011856918,
+      "max_v": 3.3025236661764197,
+      "settled_ohms": [
+        1000.047991231881,
+        1000.047991231881
+      ],
+      "final_v": 3.2999999821400148
+    },
+    {
+      "command": "phone",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-08,
+      "min_v": 2.2449321720478417,
+      "max_v": 3.30143128895644,
+      "settled_ohms": [
+        1000.0479912318972,
+        1000.0479912318972
+      ],
+      "final_v": 3.29999998214001
+    },
+    {
+      "command": "phone",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-10,
+      "min_v": 1.6500391459617278,
+      "max_v": 3.3027957456364034,
+      "settled_ohms": [
+        1000.0479905946953,
+        1000.0479905946953
+      ],
+      "final_v": 3.299999961999713
+    },
+    {
+      "command": "phone",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-09,
+      "min_v": 1.6500391782798178,
+      "max_v": 3.302577945317453,
+      "settled_ohms": [
+        1000.0479905946877,
+        1000.0479905946877
+      ],
+      "final_v": 3.2999999619997036
+    },
+    {
+      "command": "phone",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-08,
+      "min_v": 1.6500393519783882,
+      "max_v": 3.301448333370823,
+      "settled_ohms": [
+        1000.0479905948197,
+        1000.0479905948197
+      ],
+      "final_v": 3.299999961999907
+    },
+    {
+      "command": "phone",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.3000126110817235,
+      "max_v": 3.302848281053613,
+      "settled_ohms": [
+        1000.047979799346,
+        1000.047979799346
+      ],
+      "final_v": 3.2999996199993475
+    },
+    {
+      "command": "phone",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.30001264665098515,
+      "max_v": 3.302622259997306,
+      "settled_ohms": [
+        1000.0479797993431,
+        1000.0479797993431
+      ],
+      "final_v": 3.2999996199993427
+    },
+    {
+      "command": "phone",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.30001283527987793,
+      "max_v": 3.301461894911896,
+      "settled_ohms": [
+        1000.0479797993676,
+        1000.0479797993676
+      ],
+      "final_v": 3.299999611015255
+    },
+    {
+      "command": "mute",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-10,
+      "min_v": 2.6720767535248684,
+      "max_v": 3.3022823527946543,
+      "settled_ohms": [
+        2000.0479630349894,
+        2000.0479630349894
+      ],
+      "final_v": 3.2999999821399366
+    },
+    {
+      "command": "mute",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-09,
+      "min_v": 2.6720767688567517,
+      "max_v": 3.3021075698775086,
+      "settled_ohms": [
+        2000.0479630347584,
+        2000.0479630347584
+      ],
+      "final_v": 3.2999999821400134
+    },
+    {
+      "command": "mute",
+      "radio_pullup_ohms": 470,
+      "radio_cap_f": 1e-08,
+      "min_v": 2.6720768519630527,
+      "max_v": 3.3011942669583987,
+      "settled_ohms": [
+        2000.0479630351012,
+        2000.0479630351012
+      ],
+      "final_v": 3.2999999821400077
+    },
+    {
+      "command": "mute",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-10,
+      "min_v": 2.20001735632516,
+      "max_v": 3.3023333033384032,
+      "settled_ohms": [
+        2000.0479617553797,
+        2000.0479617553797
+      ],
+      "final_v": 3.299999961999713
+    },
+    {
+      "command": "mute",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-09,
+      "min_v": 2.2000173733600605,
+      "max_v": 3.3021509606854003,
+      "settled_ohms": [
+        2000.0479617553726,
+        2000.0479617553726
+      ],
+      "final_v": 3.2999999619997045
+    },
+    {
+      "command": "mute",
+      "radio_pullup_ohms": 1000,
+      "radio_cap_f": 1e-08,
+      "min_v": 2.200017463503128,
+      "max_v": 3.301207971652367,
+      "settled_ohms": [
+        2000.047961755295,
+        2000.047961755295
+      ],
+      "final_v": 3.2999999619999056
+    },
+    {
+      "command": "mute",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-10,
+      "min_v": 0.550010742234564,
+      "max_v": 3.302374871520022,
+      "settled_ohms": [
+        2000.0479400347713,
+        2000.0479400347713
+      ],
+      "final_v": 3.299999619999347
+    },
+    {
+      "command": "mute",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-09,
+      "min_v": 0.5500107610473074,
+      "max_v": 3.3021861486115878,
+      "settled_ohms": [
+        2000.0479400347713,
+        2000.0479400347713
+      ],
+      "final_v": 3.2999996199993413
+    },
+    {
+      "command": "mute",
+      "radio_pullup_ohms": 10000,
+      "radio_cap_f": 1e-08,
+      "min_v": 0.5500108589073087,
+      "max_v": 3.301218757082061,
+      "settled_ohms": [
+        2000.0479400347713,
+        2000.047940036393
+      ],
+      "final_v": 3.2999996117605526
+    }
+  ],
+  "fault_results": [
+    {
+      "fault": "drain_source_short",
+      "swrc_plus_v": 0.06902680631355174,
+      "radio_pullup_current_a": 0.0014686241789483854
+    },
+    {
+      "fault": "acc_bridge",
+      "swrc_plus_v": 11.999604563416439,
+      "radio_pullup_current_a": -0.003954365710643836
+    }
+  ],
+  "swrc_plus_pin_inventory": [
+    [
+      "C11",
+      "1"
+    ],
+    [
+      "J1",
+      "9"
+    ],
+    [
+      "R11",
+      "2"
+    ],
+    [
+      "R13",
+      "2"
+    ],
+    [
+      "R15",
+      "2"
+    ],
+    [
+      "R16",
+      "2"
+    ],
+    [
+      "R17",
+      "2"
+    ],
+    [
+      "TP3",
+      "1"
+    ]
+  ],
+  "limitations": [
+    "MCU is a Python behavioral decoder, not real firmware or instruction-level emulator.",
+    "Regulators/ACC protection omitted from analog model;3V3 supply is an ideal source. No load-dump/thermal/failure prediction.",
+    "Diode and switched MOSFET models are approximations, not manufacturer fitted SPICE models.",
+    "Cgs/Cgd/Cds fixed from one datasheet operating point; actual low-voltage capacitance and gate dynamics vary.",
+    "Radio3.3V/5V pull-up and100pF\u201310nF input capacitance are assumed fixtures; actual radio impedance/absolute limits unknown.",
+    "DC resistor ranges and transient timing need bench verification; simulations cannot prove arbitrary-fault immunity."
+  ]
+}

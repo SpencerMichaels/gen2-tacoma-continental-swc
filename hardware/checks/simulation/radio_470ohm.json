@@ -1,0 +1,147 @@
+{
+  "assumed_pullup_ohms": 470,
+  "assumed_intrinsic_capacitance_f": 1e-10,
+  "model": "Same approximate behavioral MOSFET model as run_simulation.py; not radio safety qualification",
+  "results": [
+    {
+      "command": "volume_down",
+      "added_capacitance_f": 0,
+      "min_v": 0.3002729488285485,
+      "max_v": 3.332366023426474,
+      "settled_ohms": [
+        47.04800095797858,
+        47.04800095797858
+      ]
+    },
+    {
+      "command": "volume_up",
+      "added_capacitance_f": 0,
+      "min_v": 0.7073763828707943,
+      "max_v": 3.3634820244107466,
+      "settled_ohms": [
+        128.23679872881695,
+        128.23679872881695
+      ]
+    },
+    {
+      "command": "source",
+      "added_capacitance_f": 0,
+      "min_v": 0.9537213343616848,
+      "max_v": 3.332096894557208,
+      "settled_ohms": [
+        191.0480005614753,
+        191.0480005614753
+      ]
+    },
+    {
+      "command": "seek_up",
+      "added_capacitance_f": 0,
+      "min_v": 1.2336607781502795,
+      "max_v": 3.3606419311852003,
+      "settled_ohms": [
+        280.6041617211048,
+        280.6041617211048
+      ]
+    },
+    {
+      "command": "seek_down",
+      "added_capacitance_f": 0,
+      "min_v": 1.4966090552856288,
+      "max_v": 3.331525860030753,
+      "settled_ohms": [
+        390.04799938479914,
+        390.04799938479914
+      ]
+    },
+    {
+      "command": "phone",
+      "added_capacitance_f": 0,
+      "min_v": 2.244930562869038,
+      "max_v": 3.3292958717846783,
+      "settled_ohms": [
+        1000.0479912318186,
+        1000.0479912318186
+      ]
+    },
+    {
+      "command": "mute",
+      "added_capacitance_f": 0,
+      "min_v": 2.672075890100429,
+      "max_v": 3.32534558546204,
+      "settled_ohms": [
+        2000.047963034762,
+        2000.047963034762
+      ]
+    },
+    {
+      "command": "volume_down",
+      "added_capacitance_f": 1e-08,
+      "min_v": 0.3002742880844441,
+      "max_v": 3.3031459788538493,
+      "settled_ohms": [
+        47.048000957978665,
+        47.048000957978665
+      ]
+    },
+    {
+      "command": "volume_up",
+      "added_capacitance_f": 1e-08,
+      "min_v": 0.7073786903720788,
+      "max_v": 3.3061259981150477,
+      "settled_ohms": [
+        128.2367987288178,
+        128.2367987288178
+      ]
+    },
+    {
+      "command": "source",
+      "added_capacitance_f": 1e-08,
+      "min_v": 0.9537237818871659,
+      "max_v": 3.303106607834745,
+      "settled_ohms": [
+        191.0480005614754,
+        191.0480005614754
+      ]
+    },
+    {
+      "command": "seek_up",
+      "added_capacitance_f": 1e-08,
+      "min_v": 1.2336631903373496,
+      "max_v": 3.30574622116875,
+      "settled_ohms": [
+        280.60416172110564,
+        280.60416172110564
+      ]
+    },
+    {
+      "command": "seek_down",
+      "added_capacitance_f": 1e-08,
+      "min_v": 1.4966112800660725,
+      "max_v": 3.3030252414777217,
+      "settled_ohms": [
+        390.04799938479823,
+        390.04799938479823
+      ]
+    },
+    {
+      "command": "phone",
+      "added_capacitance_f": 1e-08,
+      "min_v": 2.2449319829081666,
+      "max_v": 3.3027324210893094,
+      "settled_ohms": [
+        1000.0479912318657,
+        1000.0479912318657
+      ]
+    },
+    {
+      "command": "mute",
+      "added_capacitance_f": 1e-08,
+      "min_v": 2.672076753524863,
+      "max_v": 3.3022823527946232,
+      "settled_ohms": [
+        2000.0479630349405,
+        2000.0479630349405
+      ]
+    }
+  ]
+}

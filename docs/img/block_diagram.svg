@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 470" width="980" role="img" aria-label="Block diagram: Toyota steering wheel, SWC board and Continental radio">
+<style>
+  :root { --fg:#1f2328; --mute:#59636e; --box:#f6f8fa; --edge:#d0d7de; --board:#e9f2ec; --bedge:#4f8a5f;
+          --sig:#0969da; --out:#8250df; --pwr:#bc4c00; --gnd:#59636e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg:#e6edf3; --mute:#9198a1; --box:#161b22; --edge:#3d444d; --board:#16241b; --bedge:#57ab6b;
+            --sig:#4493f8; --out:#ab7df8; --pwr:#f0883e; --gnd:#9198a1; }
+  }
+  text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: var(--fg); }
+  .t { font-size: 15px; font-weight: 600; }
+  .s { font-size: 12.5px; fill: var(--mute); }
+  .lab { font-size: 12.5px; font-weight: 600; }
+  .box { fill: var(--box); stroke: var(--edge); stroke-width: 1.5; }
+  .board { fill: var(--board); stroke: var(--bedge); stroke-width: 2; }
+  .blk { fill: var(--box); stroke: var(--bedge); stroke-width: 1.5; }
+  .sig { stroke: var(--sig); stroke-width: 2.5; fill: none; }
+  .out { stroke: var(--out); stroke-width: 2.5; fill: none; }
+  .pwr { stroke: var(--pwr); stroke-width: 2.5; fill: none; }
+  .gnd { stroke: var(--gnd); stroke-width: 1.8; fill: none; stroke-dasharray: 6 5; }
+  .as { fill: var(--sig); } .ao { fill: var(--out); } .aw { fill: var(--pwr); }
+</style>
+<defs>
+  <marker id="ms" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="as"/></marker>
+  <marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="ao"/></marker>
+  <marker id="mw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="aw"/></marker>
+</defs>
+
+<!-- vehicle side -->
+<rect class="box" x="10" y="40" width="150" height="150" rx="10"/>
+<text class="t" x="85" y="78" text-anchor="middle">Tacoma</text>
+<text class="t" x="85" y="97" text-anchor="middle">steering wheel</text>
+<text class="s" x="85" y="125" text-anchor="middle">SW1: Seek ±, Vol ±</text>
+<text class="s" x="85" y="143" text-anchor="middle">SW2: Mode, Answer,</text>
+<text class="s" x="85" y="159" text-anchor="middle">Hang Up</text>
+<text class="s" x="85" y="178" text-anchor="middle">resistor ladders</text>
+
+<rect class="box" x="10" y="280" width="150" height="110" rx="10"/>
+<text class="t" x="85" y="320" text-anchor="middle">Vehicle</text>
+<text class="t" x="85" y="339" text-anchor="middle">ACC (12 V)</text>
+<text class="s" x="85" y="362" text-anchor="middle">switched with key</text>
+
+<!-- radio -->
+<rect class="box" x="820" y="120" width="150" height="150" rx="10"/>
+<text class="t" x="895" y="168" text-anchor="middle">Continental</text>
+<text class="t" x="895" y="187" text-anchor="middle">CRD4512UBA</text>
+<text class="s" x="895" y="212" text-anchor="middle">3.5 mm SWRC input,</text>
+<text class="s" x="895" y="229" text-anchor="middle">Resistance mode,</text>
+<text class="s" x="895" y="246" text-anchor="middle">~470 Ω pull-up to 3.3 V</text>
+
+<g transform="translate(40,0)">
+<!-- board -->
+<rect class="board" x="200" y="20" width="500" height="430" rx="12"/>
+<text class="t" x="450" y="44" text-anchor="middle">SWC board (65 × 55 mm)</text>
+<text class="s" x="214" y="70">J1 · 12-pin Micro-Fit (existing harness)</text>
+
+<!-- input conditioning -->
+<rect class="blk" x="250" y="90" width="150" height="104" rx="8"/>
+<text class="t" x="325" y="116" text-anchor="middle">Input sensing</text>
+<text class="s" x="325" y="138" text-anchor="middle">2.2 kΩ pull-up to 3.3 V</text>
+<text class="s" x="325" y="155" text-anchor="middle">22 kΩ + 10 nF filter</text>
+<text class="s" x="325" y="172" text-anchor="middle">clamp diodes</text>
+
+<!-- MCU -->
+<rect class="blk" x="440" y="90" width="120" height="104" rx="8"/>
+<text class="t" x="500" y="122" text-anchor="middle">XIAO</text>
+<text class="t" x="500" y="141" text-anchor="middle">RP2040</text>
+<text class="s" x="500" y="162" text-anchor="middle">2 ADC in</text>
+<text class="s" x="500" y="178" text-anchor="middle">5 GPIO out</text>
+
+<!-- output bank -->
+<rect class="blk" x="590" y="90" width="90" height="250" rx="8"/>
+<text class="t" x="635" y="116" text-anchor="middle">Outputs</text>
+<text class="s" x="635" y="140" text-anchor="middle">47 Ω</text>
+<text class="s" x="635" y="160" text-anchor="middle">191 Ω</text>
+<text class="s" x="635" y="180" text-anchor="middle">390 Ω</text>
+<text class="s" x="635" y="200" text-anchor="middle">1 kΩ</text>
+<text class="s" x="635" y="220" text-anchor="middle">2 kΩ</text>
+<text class="s" x="635" y="250" text-anchor="middle">each switched</text>
+<text class="s" x="635" y="266" text-anchor="middle">by its own</text>
+<text class="s" x="635" y="282" text-anchor="middle">AO3400A</text>
+
+<!-- power -->
+<rect class="blk" x="250" y="300" width="200" height="104" rx="8"/>
+<text class="t" x="350" y="326" text-anchor="middle">Power</text>
+<text class="s" x="350" y="348" text-anchor="middle">fuse · reverse diode · 10 Ω</text>
+<text class="s" x="350" y="365" text-anchor="middle">TVS · LT3012 LDO → 5 V</text>
+<text class="s" x="350" y="388" text-anchor="middle">~25 mA from ACC</text>
+
+<rect class="blk" x="480" y="320" width="80" height="64" rx="8"/>
+<text class="t" x="520" y="348" text-anchor="middle">JP1</text>
+<text class="s" x="520" y="368" text-anchor="middle">pull for USB</text>
+
+<!-- wires: wheel -> sensing -->
+<path class="sig" d="M120 115 H250" marker-end="url(#ms)"/>
+<text class="lab" x="160" y="107" text-anchor="middle">SW1, SW2</text>
+<!-- sensing -> MCU -->
+<path class="sig" d="M400 142 H440" marker-end="url(#ms)"/>
+<!-- MCU -> outputs -->
+<path class="out" d="M560 142 H590" marker-end="url(#mo)"/>
+<!-- outputs -> radio -->
+<path class="out" d="M680 175 H780" marker-end="url(#mo)"/>
+<text class="lab" x="730" y="167" text-anchor="middle">SWRC+</text>
+<path class="gnd" d="M680 225 H780"/>
+<text class="lab" x="730" y="217" text-anchor="middle">SWRC GND</text>
+
+<!-- power wires -->
+<path class="pwr" d="M120 335 H250" marker-end="url(#mw)"/>
+<path class="pwr" d="M450 352 H480" marker-end="url(#mw)"/>
+<path class="pwr" d="M520 320 V194" marker-end="url(#mw)"/>
+<text class="lab" x="530" y="262">5 V</text>
+
+<!-- ground note -->
+<text class="s" x="214" y="436">Vehicle GND, wheel SWG and radio SWRC GND are bonded on the board (NT1).</text>
+</g>
+</svg>

@@ -1,0 +1,83 @@
+SWC behavioral test from exported KiCad netlist
+* Regulators and MCU are STUBS; no automotive surge/thermal certification.
+* Schottky and MOS switch models below are engineering approximations, NOT vendor SPICE models.
+Vlogic n0 0 DC 3.3
+Vacc acc_stub 0 DC 12
+Vradio radio_internal 0 DC 3.3
+Rradio radio_internal n31 2200
+Cradio n31 n30 1e-09
+Rnt1 n30 0 1u
+Rwheel1 n28 0 100k
+Rwheel2 n29 0 100k
+R4 n0 0 330.0
+R5 n14 n28 2200.0
+R6 n15 n29 2200.0
+R7 n28 n6 22000.0
+R8 n29 n7 22000.0
+C5 n6 0 1e-08
+C6 n7 0 1e-08
+C7 n0 0 9.999999999999999e-06
+C8 n0 0 1.0000000000000001e-07
+C10 n0 0 2.2e-06
+C11 n31 n30 1e-08
+D5 n0 n14 DBAS
+D6 n0 n15 DBAS
+D7lo 0 n6 DBAS
+D7hi n6 n0 DBAS
+D8lo 0 n7 DBAS
+D8hi n7 n0 DBAS
+Vmcu1 drive1 0 DC 0
+Rmcu1 drive1 n12 40
+R21 n12 n17 1000.0
+R31 n17 n30 100000.0
+R11 n16 n31 47.0
+Bq1 n16 n30 I=V(n16,n30)*(1e-12+(1/0.048-1e-12)*0.5*(1+tanh((V(n17,n30)-1.05)/.05)))
+Dbody1 n30 n16 DBODY
+Cgs1 n17 n30 580p
+Cgd1 n17 n16 50p
+Cds1 n16 n30 25p
+Vmcu3 drive3 0 DC 0
+Rmcu3 drive3 n8 40
+R23 n8 n19 1000.0
+R33 n19 n30 100000.0
+R13 n18 n31 191.0
+Bq3 n18 n30 I=V(n18,n30)*(1e-12+(1/0.048-1e-12)*0.5*(1+tanh((V(n19,n30)-1.05)/.05)))
+Dbody3 n30 n18 DBODY
+Cgs3 n19 n30 580p
+Cgd3 n19 n18 50p
+Cds3 n18 n30 25p
+Vmcu5 drive5 0 DC 0
+Rmcu5 drive5 n11 40
+R25 n11 n21 1000.0
+R35 n21 n30 100000.0
+R15 n20 n31 390.0
+Bq5 n20 n30 I=V(n20,n30)*(1e-12+(1/0.048-1e-12)*0.5*(1+tanh((V(n21,n30)-1.05)/.05)))
+Dbody5 n30 n20 DBODY
+Cgs5 n21 n30 580p
+Cgd5 n21 n20 50p
+Cds5 n20 n30 25p
+Vmcu6 drive6 0 DC 0
+Rmcu6 drive6 n9 40
+R26 n9 n23 1000.0
+R36 n23 n30 100000.0
+R16 n22 n31 1000.0
+Bq6 n22 n30 I=V(n22,n30)*(1e-12+(1/0.048-1e-12)*0.5*(1+tanh((V(n23,n30)-1.05)/.05)))
+Dbody6 n30 n22 DBODY
+Cgs6 n23 n30 580p
+Cgd6 n23 n22 50p
+Cds6 n22 n30 25p
+Vmcu7 drive7 0 DC 0
+Rmcu7 drive7 n10 40
+R27 n10 n25 1000.0
+R37 n25 n30 100000.0
+R17 n24 n31 2000.0
+Bq7 n24 n30 I=V(n24,n30)*(1e-12+(1/0.048-1e-12)*0.5*(1+tanh((V(n25,n30)-1.05)/.05)))
+Dbody7 n30 n24 DBODY
+Cgs7 n25 n30 580p
+Cgd7 n25 n24 50p
+Cds7 n24 n30 25p
+Rfault acc_stub n31 .1
+.model DBAS D(Is=1n N=1.05 Rs=10 Cjo=2p Eg=.69 Bv=70 Ibv=10u)
+.model DBODY D(Is=1p N=1.3 Rs=.1 Cjo=1p)
+.options method=gear reltol=1e-6 abstol=1e-12 vntol=1e-8
+.end

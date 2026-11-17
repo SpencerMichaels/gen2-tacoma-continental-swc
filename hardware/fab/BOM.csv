@@ -1,0 +1,33 @@
+References,Value,MPN,Manufacturer,Footprint,Quantity,Assembly,Notes,Quantity for 2 boards
+C1,47uF / 63V,EEE-FK1J470P,Panasonic,Capacitor_SMD:CP_Elec_8x10.5,1,SMT,"C1: 47uF 63V +/-20%, 105C; 8mm diameter, 10.2mm nominal height; polarized SMT can",2
+C10,2.2uF 16V X7R,GRM21BR71C225KA12L,Murata,Capacitor_SMD:C_0805_2012Metric,1,SMT,,2
+"C11,C5,C6",10nF 50V X7R,C0805C103K5RACTU,KEMET / YAGEO,Capacitor_SMD:C_0805_2012Metric,3,SMT,C11: SWRC+ to SWRC_GND switching-feedthrough filter; not an ACC fault clamp.,6
+C2,10uF 63V X7R,GRM32ER71J106KA12L,Murata,Capacitor_SMD:C_1210_3225Metric,1,SMT,,2
+C3,22uF 25V polymer,TCJB226M025R0100E,KYOCERA AVX,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B,1,SMT,"C3: B case3.5x2.8x1.9mm; positive pad1; 22uF20%,100mOhm ESR,105C max; no MLCC DC-bias loss",2
+"C4,C7",10uF 25V X7R,GRM31CR71E106KA12L,Murata,Capacitor_SMD:C_1206_3216Metric,2,SMT,"C4: 10uF +/-10%,25V X7R; local decoupling. C4=module5V; C7=3V3.; C7: 10uF +/-10%,25V X7R; local decoupling. C4=module5V; C7=3V3.",4
+C8,100nF 50V X7R,C0805C104K5RACTU,KEMET / YAGEO,Capacitor_SMD:C_0805_2012Metric,1,SMT,,2
+D1,STPS1H100A,STPS1H100A,STMicroelectronics,Diode_SMD:D_SMA,1,SMT,D1: 100V reverse-polarity blocking diode,2
+D2,SMBJ24A,SMBJ24A,Littelfuse,Diode_SMD:D_SMB,1,SMT,"D2: Unidirectional TVS: 24V standoff, 38.9V rated clamp",2
+"D5,D6",BAS70,"BAS70,215",Nexperia,Package_TO_SOT_SMD:SOT-23,2,SMT,D5: Pull-up blocking diode; low-drop blocking diode; reverse leakage remains; not an ideal isolator; D6: Pull-up blocking diode; low-drop blocking diode; reverse leakage remains; not an ideal isolator,4
+"D7,D8",BAS70-04,"BAS70-04,215",Nexperia,Package_TO_SOT_SMD:SOT-23,2,SMT,"D7: Pins 1=A1 GND, 2=K2 3V3, 3=common ADC; BAT54S artwork only; D8: Pins 1=A1 GND, 2=K2 3V3, 3=common ADC; BAT54S artwork only",4
+F1,250mA fast / 125V,0451.250MRL,Littelfuse,Tacoma_Mechanical:Littelfuse_451_6.1x2.69mm,1,SMT,"F1: 250mA very fast; custom land pattern from 451/453 drawing; nominal melting I2t 0.0158 A2s, not guaranteed clearing I2t",2
+J1,Molex 43045-1209,43045-1209,Molex,Tacoma_Mechanical:Molex_43045_12_SMT_SeparateRetentionPads,1,SMT,"J1: New factory-installed SMT header; verified loose-plug mating face, latch up: top pins 7-12, bottom 1-6. Retention MP pads unconnected.",2
+JP1,RUN power / REMOVE FOR USB,TSW-102-07-G-S,Samtec,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,THT,JP1: Fit removable 2.54mm shunt for ACC operation; REMOVE before plugging USB. Shunt is a separate accessory.,2
+"Q1,Q3,Q5,Q6,Q7",AO3400A,AO3400A,Alpha and Omega Semiconductor,Package_TO_SOT_SMD:SOT-23,5,SMT,Q1: G=1 S=2 D=3; output active HIGH; Q3: G=1 S=2 D=3; output active HIGH; Q5: G=1 S=2 D=3; output active HIGH; Q6: G=1 S=2 D=3; output active HIGH; Q7: G=1 S=2 D=3; output active HIGH,10
+R1,10R / 1W,AC01000001009JA100,Vishay,Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal,1,THT,"R1: 10 ohm 5%, wirewound flameproof AC01; 1W at 40C / 0.9W at 70C; 20.32mm formed lead pitch; pulse/fault review still required",2
+R11,47R,RC0805FR-0747RL,YAGEO,Resistor_SMD:R_0805_2012Metric,1,SMT,"R11: 1%, command resistor; empirically measured Continental window",2
+R13,191R,RC0805FR-07191RL,YAGEO,Resistor_SMD:R_0805_2012Metric,1,SMT,"R13: 1%, command resistor; empirically measured Continental window",2
+R15,390R,RC0805FR-07390RL,YAGEO,Resistor_SMD:R_0805_2012Metric,1,SMT,"R15: 1%, command resistor; empirically measured Continental window",2
+"R16,R21,R23,R25,R26,R27",1.00k,RC0805FR-071KL,YAGEO,Resistor_SMD:R_0805_2012Metric,6,SMT,"R16: 1%, command resistor; empirically measured Continental window; R21: 1%, gate series resistor; R23: 1%, gate series resistor; R25: 1%, gate series resistor; R26: 1%, gate series resistor; R27: 1%, gate series resistor",12
+R17,2.00k,RC0805FR-072KL,YAGEO,Resistor_SMD:R_0805_2012Metric,1,SMT,"R17: 1%, command resistor; empirically measured Continental window",2
+R2,30.1k 0.1%,RT0805BRD0730K1L,YAGEO,Resistor_SMD:R_0805_2012Metric,1,SMT,"R2: 0.1%,25ppm/C; LT3012 setpoint nominal4.9733V",2
+R3,10.0k 0.1%,RT0805BRD0710KL,YAGEO,Resistor_SMD:R_0805_2012Metric,1,SMT,"R3: 0.1%, 25ppm/C feedback lower",2
+"R31,R33,R35,R36,R37",100k,RC0805FR-07100KL,YAGEO,Resistor_SMD:R_0805_2012Metric,5,SMT,"R31: 1%, gate-source pulldown; reset default OFF; R33: 1%, gate-source pulldown; reset default OFF; R35: 1%, gate-source pulldown; reset default OFF; R36: 1%, gate-source pulldown; reset default OFF; R37: 1%, gate-source pulldown; reset default OFF",10
+R4,330R,RC1206FR-07330RL,YAGEO,Resistor_SMD:R_1206_3216Metric,1,SMT,R4: 330R bleed on3V3: nominal10mA/33mW; sinks limited ADC clamp current.,2
+"R5,R6",2.20k,RC1206FR-072K2L,YAGEO,Resistor_SMD:R_1206_3216Metric,2,SMT,"R5: 1%, 0.25W pull-up; diode drop included in ADC ranges; R6: 1%, 0.25W pull-up; diode drop included in ADC ranges",4
+"R7,R8",22.0k,RC0805FR-0722KL,YAGEO,Resistor_SMD:R_0805_2012Metric,2,SMT,"R7: 1%, ADC series current limit; R8: 1%, ADC series current limit",4
+U1,LT3012EDE,LT3012EDE#WPBF,Analog Devices,Package_DFN_QFN:DFN-12-1EP_3x4mm_P0.5mm_EP1.7x3.3mm,1,SMT,U1: DE12 EP13 GND; reverse-protected; nominal4.973V;60mA output allocation requires bench verification.,2
+"A1L,A1R",XIAO 7-contact socket,SSW-107-01-G-S,Samtec,A1 half; see socket-placement.svg,2,THT,A1L: Assembly alias only; do not solder XIAO directly to carrier.; A1R: Assembly alias only; do not solder XIAO directly to carrier.,4
+A1 module,XIAO RP2040 module,102010428,Seeed Studio,Removable module,1,Supply separately; headers soldered,"Standard XIAO RP2040, not Plus. Supply unplugged, headers soldered.",2
+A1 module headers,XIAO 1x7 male header strip,102010490,Seeed Studio,"1x7, 2.54 mm pitch",2,"Fit to module, not carrier","1x7, 2.54 mm pitch; 15.24 mm row spacing. Prefer supplied headers or Seeed 102010490. Confirm module revision, hole fit and SSW engagement before soldering. Quantities are strips; 102010490 is a five-strip pack, so one pack covers four strips. Do not double-buy if included.",4
+JP1 shunt,Removable jumper shunt,SNT-100-BK-T-H,Samtec,2.54 mm shunt,1,Supply loose,Supply loose; verify mates with TSW-102-07-G-S. Remove before USB.,2

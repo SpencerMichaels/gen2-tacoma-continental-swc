@@ -1,0 +1,1669 @@
+{
+  "J1": {
+    "symbol": "Molex_43045_12_SMT",
+    "value": "Molex 43045-1209",
+    "footprint": "Tacoma_Mechanical:Molex_43045_12_SMT_SeparateRetentionPads",
+    "mpn": "43045-1209",
+    "fit": true,
+    "note": "New factory-installed SMT header; user confirmed loose-plug mating face, latch up: top pins 7-12, bottom 1-6. Retention MP pads unconnected.",
+    "sheet": "01_interface",
+    "pins": {
+      "7": {
+        "name": "EMPTY",
+        "net": null,
+        "type": "passive"
+      },
+      "8": {
+        "name": "SW2",
+        "net": "SW2_RAW",
+        "type": "passive"
+      },
+      "9": {
+        "name": "SWRC_RED",
+        "net": "SWRC_PLUS",
+        "type": "passive"
+      },
+      "10": {
+        "name": "SWRC_WHITE",
+        "net": "SWRC_GND",
+        "type": "passive"
+      },
+      "11": {
+        "name": "UNUSED_24",
+        "net": null,
+        "type": "passive"
+      },
+      "12": {
+        "name": "ACC",
+        "net": "ACC",
+        "type": "passive"
+      },
+      "1": {
+        "name": "EMPTY",
+        "net": null,
+        "type": "passive"
+      },
+      "2": {
+        "name": "EMPTY",
+        "net": null,
+        "type": "passive"
+      },
+      "3": {
+        "name": "EMPTY",
+        "net": null,
+        "type": "passive"
+      },
+      "4": {
+        "name": "SW1",
+        "net": "SW1_RAW",
+        "type": "passive"
+      },
+      "5": {
+        "name": "EMPTY",
+        "net": null,
+        "type": "passive"
+      },
+      "6": {
+        "name": "GND",
+        "net": "GND",
+        "type": "passive"
+      },
+      "MP1": {
+        "name": "RETENTION_L",
+        "net": null,
+        "type": "passive"
+      },
+      "MP2": {
+        "name": "RETENTION_R",
+        "net": null,
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Molex",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430450209_sd.pdf"
+  },
+  "A1": {
+    "symbol": "XIAO_RP2040_Socket",
+    "value": "XIAO RP2040 (standard)",
+    "footprint": "Tacoma_Mechanical:XIAO_RP2040_Socket_2x7",
+    "mpn": "102010428",
+    "fit": true,
+    "note": "Standard module, not Plus. Two 1x7 sockets, pitch2.54mm, row spacing15.24mm. Remove JP1 shunt before USB.",
+    "sheet": "01_interface",
+    "pins": {
+      "1": {
+        "name": "D0/GP26/ADC0",
+        "net": "ADC_SW1",
+        "type": "bidirectional"
+      },
+      "2": {
+        "name": "D1/GP27/ADC1",
+        "net": "ADC_SW2",
+        "type": "bidirectional"
+      },
+      "3": {
+        "name": "D2/GP28",
+        "net": null,
+        "type": "bidirectional"
+      },
+      "4": {
+        "name": "D3/GP29",
+        "net": null,
+        "type": "bidirectional"
+      },
+      "5": {
+        "name": "D4/GP6",
+        "net": null,
+        "type": "bidirectional"
+      },
+      "6": {
+        "name": "D5/GP7",
+        "net": null,
+        "type": "bidirectional"
+      },
+      "7": {
+        "name": "D6/GP0",
+        "net": "BR_47R",
+        "type": "bidirectional"
+      },
+      "14": {
+        "name": "5V/VBUS",
+        "net": "+5V_MODULE",
+        "type": "power_in"
+      },
+      "13": {
+        "name": "GND",
+        "net": "GND",
+        "type": "power_in"
+      },
+      "12": {
+        "name": "3V3",
+        "net": "+3V3_SENSE",
+        "type": "power_out"
+      },
+      "11": {
+        "name": "D10/GP3",
+        "net": "BR_2K",
+        "type": "bidirectional"
+      },
+      "10": {
+        "name": "D9/GP4",
+        "net": "BR_1K",
+        "type": "bidirectional"
+      },
+      "9": {
+        "name": "D8/GP2",
+        "net": "BR_390R",
+        "type": "bidirectional"
+      },
+      "8": {
+        "name": "D7/GP1",
+        "net": "BR_191R",
+        "type": "bidirectional"
+      }
+    },
+    "manufacturer": "Seeed Studio",
+    "assembly": "USER_PLUG_IN_MODULE",
+    "datasheet": "https://files.seeedstudio.com/wiki/XIAO-RP2040/res/Seeed-Studio-XIAO-RP2040-v1.3.pdf"
+  },
+  "C10": {
+    "symbol": "Device_C",
+    "value": "2.2uF 16V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "mpn": "GRM21BR71C225KA12L",
+    "fit": true,
+    "note": "",
+    "sheet": "01_interface",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "+3V3_SENSE",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Murata",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71C225KA12-01A.pdf"
+  },
+  "TP9": {
+    "symbol": "Connector_TestPoint",
+    "value": "+3V3_SENSE",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "mpn": "",
+    "fit": true,
+    "note": "PCB pad, no purchased part",
+    "sheet": "01_interface",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+3V3_SENSE",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "NT1": {
+    "symbol": "Device_NetTie_2",
+    "value": "SWRC return bond",
+    "footprint": "NetTie:NetTie-2_SMD_Pad2.0mm",
+    "mpn": "",
+    "fit": true,
+    "note": "Copper net tie; output returns route to J1 pin 10",
+    "sheet": "01_interface",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "SWRC_GND",
+        "type": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "C7": {
+    "symbol": "Device_C",
+    "value": "10uF 25V X7R",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "mpn": "GRM31CR71E106KA12L",
+    "fit": true,
+    "note": "10uF +/-10%,25V X7R; local decoupling. C4=module5V; C7=3V3.",
+    "sheet": "01_interface",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "+3V3_SENSE",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Murata",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01CA.pdf"
+  },
+  "C8": {
+    "symbol": "Device_C",
+    "value": "100nF 50V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "mpn": "C0805C104K5RACTU",
+    "fit": true,
+    "note": "",
+    "sheet": "01_interface",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "+3V3_SENSE",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "KEMET / YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://yageogroup.com/download/specsheet/C0805C104K5RACTU"
+  },
+  "R4": {
+    "symbol": "Device_R",
+    "value": "330R",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "mpn": "RC1206FR-07330RL",
+    "fit": true,
+    "note": "330R bleed on3V3: nominal10mA/33mW; sinks limited ADC clamp current.",
+    "sheet": "01_interface",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "+3V3_SENSE",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "TP1": {
+    "symbol": "Connector_TestPoint",
+    "value": "GND",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "mpn": "",
+    "fit": true,
+    "note": "PCB pad, no purchased part",
+    "sheet": "01_interface",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "TP2": {
+    "symbol": "Connector_TestPoint",
+    "value": "REG5",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "mpn": "",
+    "fit": true,
+    "note": "PCB pad, no purchased part",
+    "sheet": "01_interface",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "REG5",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "TP3": {
+    "symbol": "Connector_TestPoint",
+    "value": "SWRC_PLUS",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "mpn": "",
+    "fit": true,
+    "note": "PCB pad, no purchased part",
+    "sheet": "01_interface",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "SWRC_PLUS",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "TP4": {
+    "symbol": "Connector_TestPoint",
+    "value": "SWRC_GND",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "mpn": "",
+    "fit": true,
+    "note": "PCB pad, no purchased part",
+    "sheet": "01_interface",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "SWRC_GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "#FLG1": {
+    "symbol": "power_PWR_FLAG",
+    "value": "PWR_FLAG",
+    "footprint": "",
+    "mpn": "",
+    "fit": true,
+    "note": "",
+    "sheet": "01_interface",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "GND",
+        "type": "power_out"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "#FLG2": {
+    "symbol": "power_PWR_FLAG",
+    "value": "PWR_FLAG",
+    "footprint": "",
+    "mpn": "",
+    "fit": true,
+    "note": "",
+    "sheet": "01_interface",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "SWRC_GND",
+        "type": "power_out"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "F1": {
+    "symbol": "Device_Fuse",
+    "value": "250mA fast / 125V",
+    "footprint": "Tacoma_Mechanical:Littelfuse_451_6.1x2.69mm",
+    "mpn": "0451.250MRL",
+    "fit": true,
+    "note": "250mA very fast; custom land pattern from 451/453 drawing; nominal melting I2t 0.0158 A2s, not guaranteed clearing I2t",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "ACC",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "ACC_FUSED",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Littelfuse",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1"
+  },
+  "D1": {
+    "symbol": "Device_D_Schottky",
+    "value": "STPS1H100A",
+    "footprint": "Diode_SMD:D_SMA",
+    "mpn": "STPS1H100A",
+    "fit": true,
+    "note": "100V reverse-polarity blocking diode",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "K",
+        "net": "ACC_DIODE",
+        "type": "passive"
+      },
+      "2": {
+        "name": "A",
+        "net": "ACC_FUSED",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "STMicroelectronics",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.st.com/resource/en/datasheet/stps1h100.pdf"
+  },
+  "R1": {
+    "symbol": "Device_R",
+    "value": "10R / 1W",
+    "footprint": "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal",
+    "mpn": "AC01000001009JA100",
+    "fit": true,
+    "note": "10 ohm 5%, wirewound flameproof AC01; 1W at 40C / 0.9W at 70C; 20.32mm formed lead pitch; pulse/fault review still required",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "ACC_DIODE",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "ACC_CLAMP",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Vishay",
+    "assembly": "HAND_FIT_THT",
+    "datasheet": "https://www.vishay.com/docs/28730/ac_ac-at_ac-ni.pdf"
+  },
+  "D2": {
+    "symbol": "Device_D_Zener",
+    "value": "SMBJ24A",
+    "footprint": "Diode_SMD:D_SMB",
+    "mpn": "SMBJ24A",
+    "fit": true,
+    "note": "Unidirectional TVS: 24V standoff, 38.9V rated clamp",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "K",
+        "net": "ACC_CLAMP",
+        "type": "passive"
+      },
+      "2": {
+        "name": "A",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Littelfuse",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf"
+  },
+  "C1": {
+    "symbol": "Device_C_Polarized",
+    "value": "47uF / 63V",
+    "footprint": "Capacitor_SMD:CP_Elec_8x10.5",
+    "mpn": "EEE-FK1J470P",
+    "fit": true,
+    "note": "47uF 63V +/-20%, 105C; 8mm diameter, 10.2mm nominal height; polarized SMT can",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "ACC_CLAMP",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Panasonic",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://industrial.panasonic.com/tw/products/pt/aluminum-cap-smd/models/EEEFK1J470P"
+  },
+  "C2": {
+    "symbol": "Device_C",
+    "value": "10uF 63V X7R",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "mpn": "GRM32ER71J106KA12L",
+    "fit": true,
+    "note": "",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "ACC_CLAMP",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Murata",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71J106KA12-04A.pdf"
+  },
+  "U1": {
+    "symbol": "LT3012EDE",
+    "value": "LT3012EDE",
+    "footprint": "Package_DFN_QFN:DFN-12-1EP_3x4mm_P0.5mm_EP1.7x3.3mm",
+    "mpn": "LT3012EDE#WPBF",
+    "fit": true,
+    "note": "DE12 EP13 GND; reverse-protected; nominal4.973V;60mA output allocation requires bench verification.",
+    "sheet": "02_power",
+    "pins": {
+      "10": {
+        "name": "IN",
+        "net": "ACC_CLAMP",
+        "type": "power_in"
+      },
+      "11": {
+        "name": "IN",
+        "net": "ACC_CLAMP",
+        "type": "power_in"
+      },
+      "8": {
+        "name": "SHDN",
+        "net": "ACC_CLAMP",
+        "type": "input"
+      },
+      "1": {
+        "name": "NC",
+        "net": null,
+        "type": "no_connect"
+      },
+      "6": {
+        "name": "NC",
+        "net": null,
+        "type": "no_connect"
+      },
+      "7": {
+        "name": "NC",
+        "net": null,
+        "type": "no_connect"
+      },
+      "2": {
+        "name": "OUT",
+        "net": "REG5",
+        "type": "power_out"
+      },
+      "3": {
+        "name": "OUT",
+        "net": "REG5",
+        "type": "passive"
+      },
+      "4": {
+        "name": "ADJ",
+        "net": "REG_FB",
+        "type": "input"
+      },
+      "9": {
+        "name": "NC",
+        "net": null,
+        "type": "no_connect"
+      },
+      "12": {
+        "name": "NC",
+        "net": null,
+        "type": "no_connect"
+      },
+      "5": {
+        "name": "GND",
+        "net": "GND",
+        "type": "power_in"
+      },
+      "13": {
+        "name": "EP",
+        "net": "GND",
+        "type": "power_in"
+      }
+    },
+    "manufacturer": "Analog Devices",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/lt3012.pdf"
+  },
+  "C3": {
+    "symbol": "Device_C_Polarized",
+    "value": "22uF 25V polymer",
+    "footprint": "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B",
+    "mpn": "TCJB226M025R0100E",
+    "fit": true,
+    "note": "B case3.5x2.8x1.9mm; positive pad1; 22uF20%,100mOhm ESR,105C max; no MLCC DC-bias loss",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "REG5",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "KYOCERA AVX",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://datasheets.kyocera-avx.com/TCJ.pdf"
+  },
+  "R2": {
+    "symbol": "Device_R",
+    "value": "30.1k 0.1%",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RT0805BRD0730K1L",
+    "fit": true,
+    "note": "0.1%,25ppm/C; LT3012 setpoint nominal4.9733V",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "REG5",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "REG_FB",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+  },
+  "R3": {
+    "symbol": "Device_R",
+    "value": "10.0k 0.1%",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RT0805BRD0710KL",
+    "fit": true,
+    "note": "0.1%, 25ppm/C feedback lower",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "REG_FB",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+  },
+  "JP1": {
+    "symbol": "Connector_Generic_Conn_01x02",
+    "value": "RUN power / REMOVE FOR USB",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "mpn": "TSW-102-07-G-S",
+    "fit": true,
+    "note": "Fit removable 2.54mm shunt for ACC operation; REMOVE before plugging USB. Shunt is a separate accessory.",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "Pin_1",
+        "net": "REG5",
+        "type": "passive"
+      },
+      "2": {
+        "name": "Pin_2",
+        "net": "+5V_MODULE",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Samtec",
+    "assembly": "USER_THT",
+    "datasheet": "https://www.samtec.com/products/tsw-102-07-g-s"
+  },
+  "C4": {
+    "symbol": "Device_C",
+    "value": "10uF 25V X7R",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "mpn": "GRM31CR71E106KA12L",
+    "fit": true,
+    "note": "10uF +/-10%,25V X7R; local decoupling. C4=module5V; C7=3V3.",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "+5V_MODULE",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Murata",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01CA.pdf"
+  },
+  "TP5": {
+    "symbol": "Connector_TestPoint",
+    "value": "ACC_CLAMP",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "mpn": "",
+    "fit": true,
+    "note": "PCB pad, no purchased part",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "ACC_CLAMP",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "TP6": {
+    "symbol": "Connector_TestPoint",
+    "value": "+5V_MODULE",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "mpn": "",
+    "fit": true,
+    "note": "PCB pad, no purchased part",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+5V_MODULE",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "#FLG3": {
+    "symbol": "power_PWR_FLAG",
+    "value": "PWR_FLAG",
+    "footprint": "",
+    "mpn": "",
+    "fit": true,
+    "note": "",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "ACC_CLAMP",
+        "type": "power_out"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "#FLG4": {
+    "symbol": "power_PWR_FLAG",
+    "value": "PWR_FLAG",
+    "footprint": "",
+    "mpn": "",
+    "fit": true,
+    "note": "",
+    "sheet": "02_power",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "+5V_MODULE",
+        "type": "power_out"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "D5": {
+    "symbol": "BAS70",
+    "value": "BAS70",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "mpn": "BAS70,215",
+    "fit": true,
+    "note": "Pull-up blocking diode; low-drop blocking diode; reverse leakage remains; not an ideal isolator",
+    "sheet": "03_inputs",
+    "pins": {
+      "3": {
+        "name": "K",
+        "net": "PULL1",
+        "type": "passive"
+      },
+      "1": {
+        "name": "A",
+        "net": "+3V3_SENSE",
+        "type": "passive"
+      },
+      "2": {
+        "name": "NC",
+        "net": null,
+        "type": "no_connect"
+      }
+    },
+    "manufacturer": "Nexperia",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://assets.nexperia.com/documents/data-sheet/BAS70.pdf"
+  },
+  "R5": {
+    "symbol": "Device_R",
+    "value": "2.20k",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "mpn": "RC1206FR-072K2L",
+    "fit": true,
+    "note": "1%, 0.25W pull-up; diode drop included in ADC ranges",
+    "sheet": "03_inputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "PULL1",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "SW1_RAW",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "R7": {
+    "symbol": "Device_R",
+    "value": "22.0k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-0722KL",
+    "fit": true,
+    "note": "1%, ADC series current limit",
+    "sheet": "03_inputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "SW1_RAW",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "ADC_SW1",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "C5": {
+    "symbol": "Device_C",
+    "value": "10nF 50V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "mpn": "C0805C103K5RACTU",
+    "fit": true,
+    "note": "",
+    "sheet": "03_inputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "ADC_SW1",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "KEMET / YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://yageogroup.com/download/specsheet/C0805C103K5RACTU"
+  },
+  "D7": {
+    "symbol": "Diode_BAT54S",
+    "value": "BAS70-04",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "mpn": "BAS70-04,215",
+    "fit": true,
+    "note": "Pins 1=A1 GND, 2=K2 3V3, 3=common ADC; BAT54S artwork only",
+    "sheet": "03_inputs",
+    "pins": {
+      "1": {
+        "name": "A",
+        "net": "GND",
+        "type": "passive"
+      },
+      "2": {
+        "name": "K",
+        "net": "+3V3_SENSE",
+        "type": "passive"
+      },
+      "3": {
+        "name": "COM",
+        "net": "ADC_SW1",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Nexperia",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://assets.nexperia.com/documents/data-sheet/BAS70-04.pdf"
+  },
+  "TP7": {
+    "symbol": "Connector_TestPoint",
+    "value": "ADC_SW1",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "mpn": "",
+    "fit": true,
+    "note": "PCB pad, no purchased part",
+    "sheet": "03_inputs",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "ADC_SW1",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "D6": {
+    "symbol": "BAS70",
+    "value": "BAS70",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "mpn": "BAS70,215",
+    "fit": true,
+    "note": "Pull-up blocking diode; low-drop blocking diode; reverse leakage remains; not an ideal isolator",
+    "sheet": "03_inputs",
+    "pins": {
+      "3": {
+        "name": "K",
+        "net": "PULL2",
+        "type": "passive"
+      },
+      "1": {
+        "name": "A",
+        "net": "+3V3_SENSE",
+        "type": "passive"
+      },
+      "2": {
+        "name": "NC",
+        "net": null,
+        "type": "no_connect"
+      }
+    },
+    "manufacturer": "Nexperia",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://assets.nexperia.com/documents/data-sheet/BAS70.pdf"
+  },
+  "R6": {
+    "symbol": "Device_R",
+    "value": "2.20k",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "mpn": "RC1206FR-072K2L",
+    "fit": true,
+    "note": "1%, 0.25W pull-up; diode drop included in ADC ranges",
+    "sheet": "03_inputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "PULL2",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "SW2_RAW",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "R8": {
+    "symbol": "Device_R",
+    "value": "22.0k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-0722KL",
+    "fit": true,
+    "note": "1%, ADC series current limit",
+    "sheet": "03_inputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "SW2_RAW",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "ADC_SW2",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "C6": {
+    "symbol": "Device_C",
+    "value": "10nF 50V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "mpn": "C0805C103K5RACTU",
+    "fit": true,
+    "note": "",
+    "sheet": "03_inputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "ADC_SW2",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "KEMET / YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://yageogroup.com/download/specsheet/C0805C103K5RACTU"
+  },
+  "D8": {
+    "symbol": "Diode_BAT54S",
+    "value": "BAS70-04",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "mpn": "BAS70-04,215",
+    "fit": true,
+    "note": "Pins 1=A1 GND, 2=K2 3V3, 3=common ADC; BAT54S artwork only",
+    "sheet": "03_inputs",
+    "pins": {
+      "1": {
+        "name": "A",
+        "net": "GND",
+        "type": "passive"
+      },
+      "2": {
+        "name": "K",
+        "net": "+3V3_SENSE",
+        "type": "passive"
+      },
+      "3": {
+        "name": "COM",
+        "net": "ADC_SW2",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Nexperia",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://assets.nexperia.com/documents/data-sheet/BAS70-04.pdf"
+  },
+  "TP8": {
+    "symbol": "Connector_TestPoint",
+    "value": "ADC_SW2",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "mpn": "",
+    "fit": true,
+    "note": "PCB pad, no purchased part",
+    "sheet": "03_inputs",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "ADC_SW2",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "",
+    "assembly": "PCB_FEATURE",
+    "datasheet": ""
+  },
+  "C11": {
+    "symbol": "Device_C",
+    "value": "10nF 50V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "mpn": "C0805C103K5RACTU",
+    "fit": true,
+    "note": "SWRC+ to SWRC_GND switching-feedthrough filter; not an ACC fault clamp.",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "SWRC_PLUS",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "SWRC_GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "KEMET / YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://yageogroup.com/download/specsheet/C0805C103K5RACTU"
+  },
+  "R11": {
+    "symbol": "Device_R",
+    "value": "47R",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-0747RL",
+    "fit": true,
+    "note": "1%, command resistor; user empirically verified window",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "OUT_D1",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "SWRC_PLUS",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "Q1": {
+    "symbol": "Transistor_FET_AO3400A",
+    "value": "AO3400A",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "mpn": "AO3400A",
+    "fit": true,
+    "note": "G=1 S=2 D=3; output active HIGH",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "G",
+        "net": "OUT_G1",
+        "type": "input"
+      },
+      "2": {
+        "name": "S",
+        "net": "SWRC_GND",
+        "type": "passive"
+      },
+      "3": {
+        "name": "D",
+        "net": "OUT_D1",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Alpha and Omega Semiconductor",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf"
+  },
+  "R21": {
+    "symbol": "Device_R",
+    "value": "1.00k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-071KL",
+    "fit": true,
+    "note": "1%, gate series resistor",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "BR_47R",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "OUT_G1",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "R31": {
+    "symbol": "Device_R",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-07100KL",
+    "fit": true,
+    "note": "1%, gate-source pulldown; reset default OFF",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "OUT_G1",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "SWRC_GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "R13": {
+    "symbol": "Device_R",
+    "value": "191R",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-07191RL",
+    "fit": true,
+    "note": "1%, command resistor; user empirically verified window",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "OUT_D3",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "SWRC_PLUS",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "Q3": {
+    "symbol": "Transistor_FET_AO3400A",
+    "value": "AO3400A",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "mpn": "AO3400A",
+    "fit": true,
+    "note": "G=1 S=2 D=3; output active HIGH",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "G",
+        "net": "OUT_G3",
+        "type": "input"
+      },
+      "2": {
+        "name": "S",
+        "net": "SWRC_GND",
+        "type": "passive"
+      },
+      "3": {
+        "name": "D",
+        "net": "OUT_D3",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Alpha and Omega Semiconductor",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf"
+  },
+  "R23": {
+    "symbol": "Device_R",
+    "value": "1.00k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-071KL",
+    "fit": true,
+    "note": "1%, gate series resistor",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "BR_191R",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "OUT_G3",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "R33": {
+    "symbol": "Device_R",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-07100KL",
+    "fit": true,
+    "note": "1%, gate-source pulldown; reset default OFF",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "OUT_G3",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "SWRC_GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "R15": {
+    "symbol": "Device_R",
+    "value": "390R",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-07390RL",
+    "fit": true,
+    "note": "1%, command resistor; user empirically verified window",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "OUT_D5",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "SWRC_PLUS",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "Q5": {
+    "symbol": "Transistor_FET_AO3400A",
+    "value": "AO3400A",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "mpn": "AO3400A",
+    "fit": true,
+    "note": "G=1 S=2 D=3; output active HIGH",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "G",
+        "net": "OUT_G5",
+        "type": "input"
+      },
+      "2": {
+        "name": "S",
+        "net": "SWRC_GND",
+        "type": "passive"
+      },
+      "3": {
+        "name": "D",
+        "net": "OUT_D5",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Alpha and Omega Semiconductor",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf"
+  },
+  "R25": {
+    "symbol": "Device_R",
+    "value": "1.00k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-071KL",
+    "fit": true,
+    "note": "1%, gate series resistor",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "BR_390R",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "OUT_G5",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "R35": {
+    "symbol": "Device_R",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-07100KL",
+    "fit": true,
+    "note": "1%, gate-source pulldown; reset default OFF",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "OUT_G5",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "SWRC_GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "R16": {
+    "symbol": "Device_R",
+    "value": "1.00k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-071KL",
+    "fit": true,
+    "note": "1%, command resistor; user empirically verified window",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "OUT_D6",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "SWRC_PLUS",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "Q6": {
+    "symbol": "Transistor_FET_AO3400A",
+    "value": "AO3400A",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "mpn": "AO3400A",
+    "fit": true,
+    "note": "G=1 S=2 D=3; output active HIGH",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "G",
+        "net": "OUT_G6",
+        "type": "input"
+      },
+      "2": {
+        "name": "S",
+        "net": "SWRC_GND",
+        "type": "passive"
+      },
+      "3": {
+        "name": "D",
+        "net": "OUT_D6",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Alpha and Omega Semiconductor",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf"
+  },
+  "R26": {
+    "symbol": "Device_R",
+    "value": "1.00k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-071KL",
+    "fit": true,
+    "note": "1%, gate series resistor",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "BR_1K",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "OUT_G6",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "R36": {
+    "symbol": "Device_R",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-07100KL",
+    "fit": true,
+    "note": "1%, gate-source pulldown; reset default OFF",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "OUT_G6",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "SWRC_GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "R17": {
+    "symbol": "Device_R",
+    "value": "2.00k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-072KL",
+    "fit": true,
+    "note": "1%, command resistor; user empirically verified window",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "OUT_D7",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "SWRC_PLUS",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "Q7": {
+    "symbol": "Transistor_FET_AO3400A",
+    "value": "AO3400A",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "mpn": "AO3400A",
+    "fit": true,
+    "note": "G=1 S=2 D=3; output active HIGH",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "G",
+        "net": "OUT_G7",
+        "type": "input"
+      },
+      "2": {
+        "name": "S",
+        "net": "SWRC_GND",
+        "type": "passive"
+      },
+      "3": {
+        "name": "D",
+        "net": "OUT_D7",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "Alpha and Omega Semiconductor",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf"
+  },
+  "R27": {
+    "symbol": "Device_R",
+    "value": "1.00k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-071KL",
+    "fit": true,
+    "note": "1%, gate series resistor",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "BR_2K",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "OUT_G7",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  },
+  "R37": {
+    "symbol": "Device_R",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "mpn": "RC0805FR-07100KL",
+    "fit": true,
+    "note": "1%, gate-source pulldown; reset default OFF",
+    "sheet": "04_outputs",
+    "pins": {
+      "1": {
+        "name": "",
+        "net": "OUT_G7",
+        "type": "passive"
+      },
+      "2": {
+        "name": "",
+        "net": "SWRC_GND",
+        "type": "passive"
+      }
+    },
+    "manufacturer": "YAGEO",
+    "assembly": "FACTORY_SMT",
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "board_sha256": "6188309d3a3223ddb21c82af6b7fd7b11ad3cc6de2f32947bf99556509cdaf1a",
+  "comparisons": 4419,
+  "raw_acc_nets": [
+    "ACC",
+    "ACC_CLAMP",
+    "ACC_DIODE",
+    "ACC_FUSED"
+  ],
+  "radio_positive_nets": [
+    "Net-(Q1-D)",
+    "Net-(Q3-D)",
+    "Net-(Q5-D)",
+    "Net-(Q6-D)",
+    "Net-(Q7-D)",
+    "SWRC_PLUS"
+  ],
+  "closest_same_layer_copper_pair": {
+    "clearance_mm": 2.148341,
+    "layer": "F.Cu",
+    "raw_net": "ACC_CLAMP",
+    "raw_item": "R1.2",
+    "radio_net": "SWRC_PLUS",
+    "radio_item": "track:04c25f2c-8c38-4d21-a452-5cbcd8e50301"
+  },
+  "copper_zone_nets": [
+    "GND",
+    "GND"
+  ],
+  "interpretation": "Positive rail separation only. GND and SWRC_GND are intentionally bonded by NT1. Ordinary clearances are not a fault-proof isolation barrier."
+}

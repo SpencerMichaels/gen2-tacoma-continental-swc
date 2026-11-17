@@ -1,0 +1,163 @@
+{
+  "status": "IMPLEMENTED_AND_BENCH_TESTED_WITH_RADIO",
+  "port_clear_masks": {
+    "SIO": 31
+  },
+  "branches": [
+    {
+      "id": "47R",
+      "q": "Q1",
+      "resistor": "R11",
+      "ohms": 47,
+      "arduino_pin": 6,
+      "module_pad": 7,
+      "port": "SIO",
+      "bit": 0
+    },
+    {
+      "id": "191R",
+      "q": "Q3",
+      "resistor": "R13",
+      "ohms": 191,
+      "arduino_pin": 7,
+      "module_pad": 8,
+      "port": "SIO",
+      "bit": 1
+    },
+    {
+      "id": "390R",
+      "q": "Q5",
+      "resistor": "R15",
+      "ohms": 390,
+      "arduino_pin": 8,
+      "module_pad": 9,
+      "port": "SIO",
+      "bit": 2
+    },
+    {
+      "id": "1K",
+      "q": "Q6",
+      "resistor": "R16",
+      "ohms": 1000,
+      "arduino_pin": 9,
+      "module_pad": 10,
+      "port": "SIO",
+      "bit": 4
+    },
+    {
+      "id": "2K",
+      "q": "Q7",
+      "resistor": "R17",
+      "ohms": 2000,
+      "arduino_pin": 10,
+      "module_pad": 11,
+      "port": "SIO",
+      "bit": 3
+    }
+  ],
+  "commands": [
+    {
+      "command": "release",
+      "branches": [],
+      "port_set_masks": {
+        "SIO": 0
+      },
+      "acceptance_ohms": null
+    },
+    {
+      "command": "volume_down",
+      "branches": [
+        "47R"
+      ],
+      "port_set_masks": {
+        "SIO": 1
+      },
+      "acceptance_ohms": [
+        0,
+        100
+      ]
+    },
+    {
+      "command": "volume_up",
+      "branches": [
+        "191R",
+        "390R"
+      ],
+      "port_set_masks": {
+        "SIO": 6
+      },
+      "acceptance_ohms": [
+        100,
+        160
+      ]
+    },
+    {
+      "command": "source",
+      "branches": [
+        "191R"
+      ],
+      "port_set_masks": {
+        "SIO": 2
+      },
+      "acceptance_ohms": [
+        160,
+        220
+      ]
+    },
+    {
+      "command": "seek_up",
+      "branches": [
+        "390R",
+        "1K"
+      ],
+      "port_set_masks": {
+        "SIO": 20
+      },
+      "acceptance_ohms": [
+        220,
+        320
+      ]
+    },
+    {
+      "command": "seek_down",
+      "branches": [
+        "390R"
+      ],
+      "port_set_masks": {
+        "SIO": 4
+      },
+      "acceptance_ohms": [
+        320,
+        470
+      ]
+    },
+    {
+      "command": "phone",
+      "branches": [
+        "1K"
+      ],
+      "port_set_masks": {
+        "SIO": 16
+      },
+      "acceptance_ohms": [
+        720,
+        1300
+      ]
+    },
+    {
+      "command": "mute",
+      "branches": [
+        "2K"
+      ],
+      "port_set_masks": {
+        "SIO": 8
+      },
+      "acceptance_ohms": [
+        1300,
+        3000
+      ]
+    }
+  ],
+  "module": "Seeed XIAO RP2040 standard 102010428",
+  "transition": "Clear SIO GPIO mask0x1F, then assert entire selected mask in one GPIO_OUT_SET write. No serial digitalWrite for paired branches."
+}

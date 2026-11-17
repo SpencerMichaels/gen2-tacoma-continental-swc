@@ -1,0 +1,5 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+R1,10R / 1W,R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal,61.000000,-31.000000,180.000000,top
+JP1,RUN power / REMOVE FOR USB,PinHeader_1x02_P2.54mm_Vertical,29.000000,-34.000000,90.000000,top
+A1L,SSW-107-01-G-S,1x7 socket; center reference,6.500000,-20.620000,0.000000,top
+A1R,SSW-107-01-G-S,1x7 socket; center reference,21.740000,-20.620000,0.000000,top

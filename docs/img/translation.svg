@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" role="img" aria-label="How wheel ADC readings map to Continental resistance commands">
+<style>
+  :root { --fg:#1f2328; --mute:#59636e; --box:#f6f8fa; --edge:#d0d7de; --gap:#eaeef2;
+          --c1:#0969da; --c2:#1a7f37; --c3:#bc4c00; --c4:#8250df; --c5:#bf3989; --c6:#9a6700; --c7:#1b7c83; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg:#e6edf3; --mute:#9198a1; --box:#161b22; --edge:#3d444d; --gap:#21262d;
+            --c1:#4493f8; --c2:#3fb950; --c3:#f0883e; --c4:#ab7df8; --c5:#f778ba; --c6:#d29922; --c7:#39c5cf; }
+  }
+  text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: var(--fg); }
+  .t { font-size: 15px; font-weight: 600; }
+  .s { font-size: 12px; fill: var(--mute); }
+  .lab { font-size: 12px; font-weight: 600; }
+  .w { font-size: 11.5px; font-weight: 600; fill: #ffffff; }
+  .box { fill: var(--box); stroke: var(--edge); stroke-width: 1.5; }
+  .gap { fill: var(--gap); stroke: var(--edge); stroke-width: 1; }
+  .tick { stroke: var(--mute); stroke-width: 1; }
+</style>
+<text class="t" x="40" y="30">1 · What the board reads from each wheel line (12-bit ADC count)</text>
+<rect class="gap" x="40" y="60" width="820" height="34" rx="3"/>
+<rect x="40.0" y="60" width="12.0" height="34" rx="3" style="fill:var(--c1)"/>
+<text class="lab" x="58.0" y="82">Seek +</text>
+<rect x="108.1" y="60" width="58.1" height="34" rx="3" style="fill:var(--c2)"/>
+<text class="w" x="137.1" y="82" text-anchor="middle">Seek −</text>
+<rect x="226.2" y="60" width="92.1" height="34" rx="3" style="fill:var(--c3)"/>
+<text class="w" x="272.3" y="82" text-anchor="middle">Vol +</text>
+<rect x="406.4" y="60" width="140.2" height="34" rx="3" style="fill:var(--c4)"/>
+<text class="w" x="476.5" y="82" text-anchor="middle">Vol −</text>
+<rect x="672.8" y="60" width="187.2" height="34" rx="3" class="box"/>
+<text class="lab" x="766.4" y="82" text-anchor="middle">released</text>
+<text class="lab" x="32" y="82" text-anchor="end">SW1</text>
+<rect class="gap" x="40" y="120" width="820" height="34" rx="3"/>
+<rect x="40.0" y="120" width="12.0" height="34" rx="3" style="fill:var(--c5)"/>
+<text class="lab" x="58.0" y="142">Mode</text>
+<rect x="108.1" y="120" width="58.1" height="34" rx="3" style="fill:var(--c7)"/>
+<text class="w" x="137.1" y="142" text-anchor="middle">Hang Up</text>
+<rect x="226.2" y="120" width="92.1" height="34" rx="3" style="fill:var(--c6)"/>
+<text class="w" x="272.3" y="142" text-anchor="middle">Answer</text>
+<rect x="672.8" y="120" width="187.2" height="34" rx="3" class="box"/>
+<text class="lab" x="766.4" y="142" text-anchor="middle">released</text>
+<text class="lab" x="32" y="142" text-anchor="end">SW2</text>
+<line class="tick" x1="40.0" y1="158" x2="40.0" y2="164"/><text class="s" x="40.0" y="178" text-anchor="middle">0</text>
+<line class="tick" x1="245.1" y1="158" x2="245.1" y2="164"/><text class="s" x="245.1" y="178" text-anchor="middle">1024</text>
+<line class="tick" x1="450.1" y1="158" x2="450.1" y2="164"/><text class="s" x="450.1" y="178" text-anchor="middle">2048</text>
+<line class="tick" x1="655.2" y1="158" x2="655.2" y2="164"/><text class="s" x="655.2" y="178" text-anchor="middle">3072</text>
+<line class="tick" x1="860.0" y1="158" x2="860.0" y2="164"/><text class="s" x="860.0" y="178" text-anchor="middle">4095</text>
+<text class="s" x="40" y="198">Grey gaps between bands are treated as invalid: the board releases its output rather than guess.</text>
+<text class="t" x="40" y="250">2 · What the board presents to the radio (ohms, SWRC+ to SWRC GND, log scale)</text>
+<rect x="40.0" y="280" width="239.0" height="34" rx="3" style="fill:var(--c4);opacity:.35"/>
+<text class="lab" x="159.5" y="302" text-anchor="middle">Vol −</text>
+<rect x="279.0" y="280" width="69.8" height="34" rx="3" style="fill:var(--c3);opacity:.35"/>
+<text class="lab" x="313.9" y="302" text-anchor="middle">Vol +</text>
+<rect x="348.8" y="280" width="47.3" height="34" rx="3" style="fill:var(--c5);opacity:.35"/>
+<text class="lab" x="372.5" y="302" text-anchor="middle">Source</text>
+<rect x="396.1" y="280" width="55.6" height="34" rx="3" style="fill:var(--c1);opacity:.35"/>
+<text class="lab" x="423.9" y="302" text-anchor="middle">Seek +</text>
+<rect x="451.8" y="280" width="57.1" height="34" rx="3" style="fill:var(--c2);opacity:.35"/>
+<text class="lab" x="480.3" y="302" text-anchor="middle">Seek −</text>
+<rect class="gap" x="508.9" y="280" width="63.3" height="34" rx="3"/>
+<text class="lab" x="540.5" y="302" text-anchor="middle">Preset</text>
+<rect x="572.2" y="280" width="87.8" height="34" rx="3" style="fill:var(--c6);opacity:.35"/>
+<text class="lab" x="616.1" y="302" text-anchor="middle">Phone</text>
+<rect x="659.9" y="280" width="124.2" height="34" rx="3" style="fill:var(--c7);opacity:.35"/>
+<text class="lab" x="722.0" y="302" text-anchor="middle">Mic mute</text>
+<rect class="gap" x="784.1" y="280" width="75.9" height="34" rx="3"/>
+<text class="lab" x="822.1" y="302" text-anchor="middle">none</text>
+<path d="M166.9 318 l-6 12 h12 z" style="fill:var(--c4)"/>
+<text class="lab" x="166.9" y="346" text-anchor="middle">47</text>
+<path d="M315.9 318 l-6 12 h12 z" style="fill:var(--c3)"/>
+<text class="lab" x="315.9" y="346" text-anchor="middle">191‖390</text>
+<path d="M375.1 318 l-6 12 h12 z" style="fill:var(--c5)"/>
+<text class="lab" x="375.1" y="346" text-anchor="middle">191</text>
+<path d="M432.2 318 l-6 12 h12 z" style="fill:var(--c1)"/>
+<text class="lab" x="432.2" y="346" text-anchor="middle">390‖1k</text>
+<path d="M481.1 318 l-6 12 h12 z" style="fill:var(--c2)"/>
+<text class="lab" x="481.1" y="346" text-anchor="middle">390</text>
+<path d="M621.0 318 l-6 12 h12 z" style="fill:var(--c6)"/>
+<text class="lab" x="621.0" y="346" text-anchor="middle">1k</text>
+<path d="M723.9 318 l-6 12 h12 z" style="fill:var(--c7)"/>
+<text class="lab" x="723.9" y="346" text-anchor="middle">2k</text>
+<line class="tick" x1="40.0" y1="354" x2="40.0" y2="360"/><text class="s" x="40.0" y="374" text-anchor="middle">20</text>
+<line class="tick" x1="176.1" y1="354" x2="176.1" y2="360"/><text class="s" x="176.1" y="374" text-anchor="middle">50</text>
+<line class="tick" x1="279.0" y1="354" x2="279.0" y2="360"/><text class="s" x="279.0" y="374" text-anchor="middle">100</text>
+<line class="tick" x1="382.0" y1="354" x2="382.0" y2="360"/><text class="s" x="382.0" y="374" text-anchor="middle">200</text>
+<line class="tick" x1="518.0" y1="354" x2="518.0" y2="360"/><text class="s" x="518.0" y="374" text-anchor="middle">500</text>
+<line class="tick" x1="621.0" y1="354" x2="621.0" y2="360"/><text class="s" x="621.0" y="374" text-anchor="middle">1k</text>
+<line class="tick" x1="723.9" y1="354" x2="723.9" y2="360"/><text class="s" x="723.9" y="374" text-anchor="middle">2k</text>
+<line class="tick" x1="860.0" y1="354" x2="860.0" y2="360"/><text class="s" x="860.0" y="374" text-anchor="middle">5k</text>
+<text class="s" x="40" y="404">Shaded bands are the radio's recognition windows, measured on a CRD4512UBA with a 10-turn pot. Triangles are the</text>
+<text class="s" x="40" y="421">board's outputs: one resistor, or two switched on together in parallel. Colours match the wheel buttons above.</text>
+</svg>

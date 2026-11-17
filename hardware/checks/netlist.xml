@@ -1,0 +1,2627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>tacoma_swc_only.kicad_sch</source>
+    <date>2026-11-16T22:35:31</date>
+    <tool>Eeschema 10.0.6</tool>
+    <textvar name="REVISION">A-DRAFT</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Tacoma SWC-only translator</title>
+        <company/>
+        <rev>A-DRAFT</rev>
+        <date>2026-09-26</date>
+        <source>tacoma_swc_only.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/01  Harness and XIAO RP2040/" tstamps="/7068388e-7dff-5736-a3fe-90eed4a05fae/">
+      <title_block>
+        <title>01  Harness and XIAO RP2040</title>
+        <company/>
+        <rev>A-DRAFT</rev>
+        <date>2026-09-26</date>
+        <source>01_interface.kicad_sch</source>
+        <comment number="1" value="Electrical draft - not released for fabrication"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/">
+      <title_block>
+        <title>02  ACC protection and preregulator</title>
+        <company/>
+        <rev>A-DRAFT</rev>
+        <date>2026-09-26</date>
+        <source>02_power.kicad_sch</source>
+        <comment number="1" value="Electrical draft - not released for fabrication"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/03  Toyota wheel inputs/" tstamps="/e61fc102-5eab-5c8d-9e30-8d013197201e/">
+      <title_block>
+        <title>03  Toyota wheel inputs</title>
+        <company/>
+        <rev>A-DRAFT</rev>
+        <date>2026-09-26</date>
+        <source>03_inputs.kicad_sch</source>
+        <comment number="1" value="Electrical draft - not released for fabrication"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/">
+      <title_block>
+        <title>04  Continental resistor outputs</title>
+        <company/>
+        <rev>A-DRAFT</rev>
+        <date>2026-09-26</date>
+        <source>04_outputs.kicad_sch</source>
+        <comment number="1" value="Electrical draft - not released for fabrication"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>XIAO RP2040 (standard)</value>
+      <footprint>Tacoma_Mechanical:XIAO_RP2040_Socket_2x7</footprint>
+      <datasheet>https://files.seeedstudio.com/wiki/XIAO-RP2040/res/Seeed-Studio-XIAO-RP2040-v1.3.pdf</datasheet>
+      <fields>
+        <field name="MPN">102010428</field>
+        <field name="Manufacturer">Seeed Studio</field>
+        <field name="Assembly">USER_PLUG_IN_MODULE</field>
+        <field name="DesignNote">Standard module, not Plus. Two 1x7 sockets, pitch2.54mm, row spacing15.24mm. Remove JP1 shunt before USB.</field>
+        <field name="Footprint">Tacoma_Mechanical:XIAO_RP2040_Socket_2x7</field>
+        <field name="Datasheet">https://files.seeedstudio.com/wiki/XIAO-RP2040/res/Seeed-Studio-XIAO-RP2040-v1.3.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="XIAO_RP2040_Socket" description="Standard XIAO RP2040; USB up. Local DIP numbering, not MCU pin numbers."/>
+      <property name="MPN" value="102010428"/>
+      <property name="Manufacturer" value="Seeed Studio"/>
+      <property name="Assembly" value="USER_PLUG_IN_MODULE"/>
+      <property name="DesignNote" value="Standard module, not Plus. Two 1x7 sockets, pitch2.54mm, row spacing15.24mm. Remove JP1 shunt before USB."/>
+      <property name="Sheetname" value="01  Harness and XIAO RP2040"/>
+      <property name="Sheetfile" value="01_interface.kicad_sch"/>
+      <sheetpath names="/01  Harness and XIAO RP2040/" tstamps="/7068388e-7dff-5736-a3fe-90eed4a05fae/"/>
+      <tstamps>ce5bd37a-b65b-5a71-90ac-bd991339cdd6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>10uF 25V X7R</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01CA.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM31CR71E106KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">10uF +/-10%,25V X7R; local decoupling. C4=module5V; C7=3V3.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01CA.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM31CR71E106KA12L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="10uF +/-10%,25V X7R; local decoupling. C4=module5V; C7=3V3."/>
+      <property name="Sheetname" value="01  Harness and XIAO RP2040"/>
+      <property name="Sheetfile" value="01_interface.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01  Harness and XIAO RP2040/" tstamps="/7068388e-7dff-5736-a3fe-90eed4a05fae/"/>
+      <tstamps>350ad563-e08d-5bf5-a5f6-b04443fbde5d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100nF 50V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://yageogroup.com/download/specsheet/C0805C104K5RACTU</datasheet>
+      <fields>
+        <field name="MPN">C0805C104K5RACTU</field>
+        <field name="Manufacturer">KEMET / YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://yageogroup.com/download/specsheet/C0805C104K5RACTU</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805C104K5RACTU"/>
+      <property name="Manufacturer" value="KEMET / YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value=""/>
+      <property name="Sheetname" value="01  Harness and XIAO RP2040"/>
+      <property name="Sheetfile" value="01_interface.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01  Harness and XIAO RP2040/" tstamps="/7068388e-7dff-5736-a3fe-90eed4a05fae/"/>
+      <tstamps>a2372379-497e-5c7f-9b9e-da9096cc3bdb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>2.2uF 16V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71C225KA12-01A.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM21BR71C225KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71C225KA12-01A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR71C225KA12L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value=""/>
+      <property name="Sheetname" value="01  Harness and XIAO RP2040"/>
+      <property name="Sheetfile" value="01_interface.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01  Harness and XIAO RP2040/" tstamps="/7068388e-7dff-5736-a3fe-90eed4a05fae/"/>
+      <tstamps>a508a6b2-35a7-5ebe-b662-c4a93940106d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Molex 43045-1209</value>
+      <footprint>Tacoma_Mechanical:Molex_43045_12_SMT_SeparateRetentionPads</footprint>
+      <datasheet>https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430450209_sd.pdf</datasheet>
+      <fields>
+        <field name="MPN">43045-1209</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">New factory-installed SMT header; user confirmed loose-plug mating face, latch up: top pins 7-12, bottom 1-6. Retention MP pads unconnected.</field>
+        <field name="Footprint">Tacoma_Mechanical:Molex_43045_12_SMT_SeparateRetentionPads</field>
+        <field name="Datasheet">https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430450209_sd.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Molex_43045_12_SMT" description="Molex circuit numbers: confirmed loose cable mating face, latch up, top 7-12 and bottom 1-6 left to right; retention pads isolated."/>
+      <property name="MPN" value="43045-1209"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="New factory-installed SMT header; user confirmed loose-plug mating face, latch up: top pins 7-12, bottom 1-6. Retention MP pads unconnected."/>
+      <property name="Sheetname" value="01  Harness and XIAO RP2040"/>
+      <property name="Sheetfile" value="01_interface.kicad_sch"/>
+      <sheetpath names="/01  Harness and XIAO RP2040/" tstamps="/7068388e-7dff-5736-a3fe-90eed4a05fae/"/>
+      <tstamps>cf3e0fe3-0dae-5cb1-99b7-6ec3e2ef1355</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="MP1"/>
+            <pin num="MP2"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="NT1">
+      <value>SWRC return bond</value>
+      <footprint>NetTie:NetTie-2_SMD_Pad2.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Assembly">PCB_FEATURE</field>
+        <field name="DesignNote">Copper net tie; output returns route to J1 pin 10</field>
+        <field name="Footprint">NetTie:NetTie-2_SMD_Pad2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_NetTie_2" description="Net tie, 2 pins"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Assembly" value="PCB_FEATURE"/>
+      <property name="DesignNote" value="Copper net tie; output returns route to J1 pin 10"/>
+      <property name="Sheetname" value="01  Harness and XIAO RP2040"/>
+      <property name="Sheetfile" value="01_interface.kicad_sch"/>
+      <property name="ki_keywords" value="net tie short"/>
+      <property name="ki_fp_filters" value="Net*Tie*"/>
+      <sheetpath names="/01  Harness and XIAO RP2040/" tstamps="/7068388e-7dff-5736-a3fe-90eed4a05fae/"/>
+      <tstamps>1c88b99d-8b9a-5564-8b61-6c7d82f6f451</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07330RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">330R bleed on3V3: nominal10mA/33mW; sinks limited ADC clamp current.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC1206FR-07330RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="330R bleed on3V3: nominal10mA/33mW; sinks limited ADC clamp current."/>
+      <property name="Sheetname" value="01  Harness and XIAO RP2040"/>
+      <property name="Sheetfile" value="01_interface.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/01  Harness and XIAO RP2040/" tstamps="/7068388e-7dff-5736-a3fe-90eed4a05fae/"/>
+      <tstamps>20b1d1d3-2422-5ef0-a92f-3b93d1ed79ac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Assembly">PCB_FEATURE</field>
+        <field name="DesignNote">PCB pad, no purchased part</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Assembly" value="PCB_FEATURE"/>
+      <property name="DesignNote" value="PCB pad, no purchased part"/>
+      <property name="Sheetname" value="01  Harness and XIAO RP2040"/>
+      <property name="Sheetfile" value="01_interface.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/01  Harness and XIAO RP2040/" tstamps="/7068388e-7dff-5736-a3fe-90eed4a05fae/"/>
+      <tstamps>55be82ce-9b8b-5ac8-9ac4-1266378ac4dc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>REG5</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Assembly">PCB_FEATURE</field>
+        <field name="DesignNote">PCB pad, no purchased part</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Assembly" value="PCB_FEATURE"/>
+      <property name="DesignNote" value="PCB pad, no purchased part"/>
+      <property name="Sheetname" value="01  Harness and XIAO RP2040"/>
+      <property name="Sheetfile" value="01_interface.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/01  Harness and XIAO RP2040/" tstamps="/7068388e-7dff-5736-a3fe-90eed4a05fae/"/>
+      <tstamps>d8508bb8-edf6-573f-9bfa-129932fc8ee5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>SWRC_PLUS</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Assembly">PCB_FEATURE</field>
+        <field name="DesignNote">PCB pad, no purchased part</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Assembly" value="PCB_FEATURE"/>
+      <property name="DesignNote" value="PCB pad, no purchased part"/>
+      <property name="Sheetname" value="01  Harness and XIAO RP2040"/>
+      <property name="Sheetfile" value="01_interface.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/01  Harness and XIAO RP2040/" tstamps="/7068388e-7dff-5736-a3fe-90eed4a05fae/"/>
+      <tstamps>8bd25495-d0db-5bd0-a63a-926a4a9fcbcc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP4">
+      <value>SWRC_GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Assembly">PCB_FEATURE</field>
+        <field name="DesignNote">PCB pad, no purchased part</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Assembly" value="PCB_FEATURE"/>
+      <property name="DesignNote" value="PCB pad, no purchased part"/>
+      <property name="Sheetname" value="01  Harness and XIAO RP2040"/>
+      <property name="Sheetfile" value="01_interface.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/01  Harness and XIAO RP2040/" tstamps="/7068388e-7dff-5736-a3fe-90eed4a05fae/"/>
+      <tstamps>edf9fc91-56fb-5f68-93b9-2e3455234190</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP9">
+      <value>+3V3_SENSE</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Assembly">PCB_FEATURE</field>
+        <field name="DesignNote">PCB pad, no purchased part</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Assembly" value="PCB_FEATURE"/>
+      <property name="DesignNote" value="PCB pad, no purchased part"/>
+      <property name="Sheetname" value="01  Harness and XIAO RP2040"/>
+      <property name="Sheetfile" value="01_interface.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/01  Harness and XIAO RP2040/" tstamps="/7068388e-7dff-5736-a3fe-90eed4a05fae/"/>
+      <tstamps>07b657d3-d2e6-579c-8c97-5321ba3391e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>47uF / 63V</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10.5</footprint>
+      <datasheet>https://industrial.panasonic.com/tw/products/pt/aluminum-cap-smd/models/EEEFK1J470P</datasheet>
+      <fields>
+        <field name="MPN">EEE-FK1J470P</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">47uF 63V +/-20%, 105C; 8mm diameter, 10.2mm nominal height; polarized SMT can</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_8x10.5</field>
+        <field name="Datasheet">https://industrial.panasonic.com/tw/products/pt/aluminum-cap-smd/models/EEEFK1J470P</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_C_Polarized" description="Polarized capacitor"/>
+      <property name="MPN" value="EEE-FK1J470P"/>
+      <property name="Manufacturer" value="Panasonic"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="47uF 63V +/-20%, 105C; 8mm diameter, 10.2mm nominal height; polarized SMT can"/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>9c310f6d-3bc4-5514-abdb-93ebcafbae6b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>10uF 63V X7R</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71J106KA12-04A.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM32ER71J106KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote"/>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71J106KA12-04A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM32ER71J106KA12L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value=""/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>25a9d6ca-2074-53df-b527-31c1107ea1fa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>22uF 25V polymer</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/TCJ.pdf</datasheet>
+      <fields>
+        <field name="MPN">TCJB226M025R0100E</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">B case3.5x2.8x1.9mm; positive pad1; 22uF20%,100mOhm ESR,105C max; no MLCC DC-bias loss</field>
+        <field name="Footprint">Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/TCJ.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_C_Polarized" description="Polarized capacitor"/>
+      <property name="MPN" value="TCJB226M025R0100E"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="B case3.5x2.8x1.9mm; positive pad1; 22uF20%,100mOhm ESR,105C max; no MLCC DC-bias loss"/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>cd370570-527d-57b7-96ae-061fe49efe9b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10uF 25V X7R</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01CA.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM31CR71E106KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">10uF +/-10%,25V X7R; local decoupling. C4=module5V; C7=3V3.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01CA.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM31CR71E106KA12L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="10uF +/-10%,25V X7R; local decoupling. C4=module5V; C7=3V3."/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>1cfd0307-9bd5-5cbb-a1cf-2e8a70d7124b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>STPS1H100A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stps1h100.pdf</datasheet>
+      <fields>
+        <field name="MPN">STPS1H100A</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">100V reverse-polarity blocking diode</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stps1h100.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_D_Schottky" description="Schottky diode"/>
+      <property name="MPN" value="STPS1H100A"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="100V reverse-polarity blocking diode"/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>90ca1a0f-69e6-571f-a516-b1752074110d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>SMBJ24A</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf</datasheet>
+      <fields>
+        <field name="MPN">SMBJ24A</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">Unidirectional TVS: 24V standoff, 38.9V rated clamp</field>
+        <field name="Footprint">Diode_SMD:D_SMB</field>
+        <field name="Datasheet">https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_D_Zener" description="Zener diode"/>
+      <property name="MPN" value="SMBJ24A"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="Unidirectional TVS: 24V standoff, 38.9V rated clamp"/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>60f5d79e-39c7-5a90-9975-2b7d5d93b851</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>250mA fast / 125V</value>
+      <footprint>Tacoma_Mechanical:Littelfuse_451_6.1x2.69mm</footprint>
+      <datasheet>https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1</datasheet>
+      <fields>
+        <field name="MPN">0451.250MRL</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">250mA very fast; custom land pattern from 451/453 drawing; nominal melting I2t 0.0158 A2s, not guaranteed clearing I2t</field>
+        <field name="Footprint">Tacoma_Mechanical:Littelfuse_451_6.1x2.69mm</field>
+        <field name="Datasheet">https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_Fuse" description="Fuse"/>
+      <property name="MPN" value="0451.250MRL"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="250mA very fast; custom land pattern from 451/453 drawing; nominal melting I2t 0.0158 A2s, not guaranteed clearing I2t"/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>3efd3cdb-1284-56f3-9b28-189c20ab6b95</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP1">
+      <value>RUN power / REMOVE FOR USB</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.samtec.com/products/tsw-102-07-g-s</datasheet>
+      <fields>
+        <field name="MPN">TSW-102-07-G-S</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Assembly">USER_THT</field>
+        <field name="DesignNote">Fit removable 2.54mm shunt for ACC operation; REMOVE before plugging USB. Shunt is a separate accessory.</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.samtec.com/products/tsw-102-07-g-s</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="TSW-102-07-G-S"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="Assembly" value="USER_THT"/>
+      <property name="DesignNote" value="Fit removable 2.54mm shunt for ACC operation; REMOVE before plugging USB. Shunt is a separate accessory."/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>4047e503-2d57-5e46-838d-f066a1e51279</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10R / 1W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/28730/ac_ac-at_ac-ni.pdf</datasheet>
+      <fields>
+        <field name="MPN">AC01000001009JA100</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Assembly">HAND_FIT_THT</field>
+        <field name="DesignNote">10 ohm 5%, wirewound flameproof AC01; 1W at 40C / 0.9W at 70C; 20.32mm formed lead pitch; pulse/fault review still required</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</field>
+        <field name="Datasheet">https://www.vishay.com/docs/28730/ac_ac-at_ac-ni.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="AC01000001009JA100"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Assembly" value="HAND_FIT_THT"/>
+      <property name="DesignNote" value="10 ohm 5%, wirewound flameproof AC01; 1W at 40C / 0.9W at 70C; 20.32mm formed lead pitch; pulse/fault review still required"/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>6a19acdb-b19b-553f-8320-f3816d4de5da</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>30.1k 0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RT0805BRD0730K1L</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">0.1%,25ppm/C; LT3012 setpoint nominal4.9733V</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RT0805BRD0730K1L"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="0.1%,25ppm/C; LT3012 setpoint nominal4.9733V"/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>e8910576-a71f-5e16-81a5-4a0b7b9e28a8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10.0k 0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">0.1%, 25ppm/C feedback lower</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="0.1%, 25ppm/C feedback lower"/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>7bb01566-2f7d-5ffc-8014-39f968115df5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP5">
+      <value>ACC_CLAMP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Assembly">PCB_FEATURE</field>
+        <field name="DesignNote">PCB pad, no purchased part</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Assembly" value="PCB_FEATURE"/>
+      <property name="DesignNote" value="PCB pad, no purchased part"/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>a5df9a5a-4bbc-529d-b092-be2f45dc2920</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP6">
+      <value>+5V_MODULE</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Assembly">PCB_FEATURE</field>
+        <field name="DesignNote">PCB pad, no purchased part</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Assembly" value="PCB_FEATURE"/>
+      <property name="DesignNote" value="PCB pad, no purchased part"/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>45c18ee8-61a4-5f0c-b8cf-3ab5fca0fdd1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>LT3012EDE</value>
+      <footprint>Package_DFN_QFN:DFN-12-1EP_3x4mm_P0.5mm_EP1.7x3.3mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/lt3012.pdf</datasheet>
+      <fields>
+        <field name="MPN">LT3012EDE#WPBF</field>
+        <field name="Manufacturer">Analog Devices</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">DE12 EP13 GND; reverse-protected; nominal4.973V;60mA output allocation requires bench verification.</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-12-1EP_3x4mm_P0.5mm_EP1.7x3.3mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/lt3012.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="LT3012EDE" description="ADI LT3012EDE adjustable 80V 250mA reverse-protected LDO; DE exposed pad is13"/>
+      <property name="MPN" value="LT3012EDE#WPBF"/>
+      <property name="Manufacturer" value="Analog Devices"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="DE12 EP13 GND; reverse-protected; nominal4.973V;60mA output allocation requires bench verification."/>
+      <property name="Sheetname" value="02  ACC protection and preregulator"/>
+      <property name="Sheetfile" value="02_power.kicad_sch"/>
+      <sheetpath names="/02  ACC protection and preregulator/" tstamps="/60a57fca-f80e-5549-ae2a-6d60da7be884/"/>
+      <tstamps>5dfe3e95-1cb9-5a4a-a05f-7d879a0d2351</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="8"/>
+            <pin num="1"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="5"/>
+            <pin num="13"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="9"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>10nF 50V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://yageogroup.com/download/specsheet/C0805C103K5RACTU</datasheet>
+      <fields>
+        <field name="MPN">C0805C103K5RACTU</field>
+        <field name="Manufacturer">KEMET / YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://yageogroup.com/download/specsheet/C0805C103K5RACTU</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805C103K5RACTU"/>
+      <property name="Manufacturer" value="KEMET / YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value=""/>
+      <property name="Sheetname" value="03  Toyota wheel inputs"/>
+      <property name="Sheetfile" value="03_inputs.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/03  Toyota wheel inputs/" tstamps="/e61fc102-5eab-5c8d-9e30-8d013197201e/"/>
+      <tstamps>2f89f9cc-b7a4-51d4-b9bf-68c204166917</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>10nF 50V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://yageogroup.com/download/specsheet/C0805C103K5RACTU</datasheet>
+      <fields>
+        <field name="MPN">C0805C103K5RACTU</field>
+        <field name="Manufacturer">KEMET / YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://yageogroup.com/download/specsheet/C0805C103K5RACTU</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805C103K5RACTU"/>
+      <property name="Manufacturer" value="KEMET / YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value=""/>
+      <property name="Sheetname" value="03  Toyota wheel inputs"/>
+      <property name="Sheetfile" value="03_inputs.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/03  Toyota wheel inputs/" tstamps="/e61fc102-5eab-5c8d-9e30-8d013197201e/"/>
+      <tstamps>72a1579a-5b0d-56bd-b126-4b14884c8928</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D5">
+      <value>BAS70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS70.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAS70,215</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">Pull-up blocking diode; low-drop blocking diode; reverse leakage remains; not an ideal isolator</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAS70.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="BAS70" description="Schottky diode"/>
+      <property name="MPN" value="BAS70,215"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="Pull-up blocking diode; low-drop blocking diode; reverse leakage remains; not an ideal isolator"/>
+      <property name="Sheetname" value="03  Toyota wheel inputs"/>
+      <property name="Sheetfile" value="03_inputs.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/03  Toyota wheel inputs/" tstamps="/e61fc102-5eab-5c8d-9e30-8d013197201e/"/>
+      <tstamps>919f2878-1fc8-54f1-be2e-e801d1399416</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D6">
+      <value>BAS70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS70.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAS70,215</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">Pull-up blocking diode; low-drop blocking diode; reverse leakage remains; not an ideal isolator</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAS70.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="BAS70" description="Schottky diode"/>
+      <property name="MPN" value="BAS70,215"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="Pull-up blocking diode; low-drop blocking diode; reverse leakage remains; not an ideal isolator"/>
+      <property name="Sheetname" value="03  Toyota wheel inputs"/>
+      <property name="Sheetfile" value="03_inputs.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/03  Toyota wheel inputs/" tstamps="/e61fc102-5eab-5c8d-9e30-8d013197201e/"/>
+      <tstamps>003fc993-8f73-5990-963d-0201f46ffff6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D7">
+      <value>BAS70-04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS70-04.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAS70-04,215</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">Pins 1=A1 GND, 2=K2 3V3, 3=common ADC; BAT54S artwork only</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAS70-04.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Diode_BAT54S" description="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
+      <property name="MPN" value="BAS70-04,215"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="Pins 1=A1 GND, 2=K2 3V3, 3=common ADC; BAT54S artwork only"/>
+      <property name="Sheetname" value="03  Toyota wheel inputs"/>
+      <property name="Sheetfile" value="03_inputs.kicad_sch"/>
+      <property name="ki_keywords" value="schottky diode"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/03  Toyota wheel inputs/" tstamps="/e61fc102-5eab-5c8d-9e30-8d013197201e/"/>
+      <tstamps>47ce6a63-8f41-590e-b83c-38a8bcb32708</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D8">
+      <value>BAS70-04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS70-04.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAS70-04,215</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">Pins 1=A1 GND, 2=K2 3V3, 3=common ADC; BAT54S artwork only</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAS70-04.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Diode_BAT54S" description="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
+      <property name="MPN" value="BAS70-04,215"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="Pins 1=A1 GND, 2=K2 3V3, 3=common ADC; BAT54S artwork only"/>
+      <property name="Sheetname" value="03  Toyota wheel inputs"/>
+      <property name="Sheetfile" value="03_inputs.kicad_sch"/>
+      <property name="ki_keywords" value="schottky diode"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/03  Toyota wheel inputs/" tstamps="/e61fc102-5eab-5c8d-9e30-8d013197201e/"/>
+      <tstamps>87f5b285-c9ee-5862-aad6-59aaab05faff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>2.20k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-072K2L</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, 0.25W pull-up; diode drop included in ADC ranges</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC1206FR-072K2L"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, 0.25W pull-up; diode drop included in ADC ranges"/>
+      <property name="Sheetname" value="03  Toyota wheel inputs"/>
+      <property name="Sheetfile" value="03_inputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03  Toyota wheel inputs/" tstamps="/e61fc102-5eab-5c8d-9e30-8d013197201e/"/>
+      <tstamps>ad6518a3-d7e1-56eb-942c-6dd4dfe84a9c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>2.20k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-072K2L</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, 0.25W pull-up; diode drop included in ADC ranges</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC1206FR-072K2L"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, 0.25W pull-up; diode drop included in ADC ranges"/>
+      <property name="Sheetname" value="03  Toyota wheel inputs"/>
+      <property name="Sheetfile" value="03_inputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03  Toyota wheel inputs/" tstamps="/e61fc102-5eab-5c8d-9e30-8d013197201e/"/>
+      <tstamps>ae4c9dc5-9649-522a-b21c-69fd2b3d9d13</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>22.0k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-0722KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, ADC series current limit</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-0722KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, ADC series current limit"/>
+      <property name="Sheetname" value="03  Toyota wheel inputs"/>
+      <property name="Sheetfile" value="03_inputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03  Toyota wheel inputs/" tstamps="/e61fc102-5eab-5c8d-9e30-8d013197201e/"/>
+      <tstamps>514a7202-d57f-589d-a8d3-005f6af5e9c2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>22.0k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-0722KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, ADC series current limit</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-0722KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, ADC series current limit"/>
+      <property name="Sheetname" value="03  Toyota wheel inputs"/>
+      <property name="Sheetfile" value="03_inputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03  Toyota wheel inputs/" tstamps="/e61fc102-5eab-5c8d-9e30-8d013197201e/"/>
+      <tstamps>17b82c9a-5056-5206-9e96-abf728e23c3f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP7">
+      <value>ADC_SW1</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Assembly">PCB_FEATURE</field>
+        <field name="DesignNote">PCB pad, no purchased part</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Assembly" value="PCB_FEATURE"/>
+      <property name="DesignNote" value="PCB pad, no purchased part"/>
+      <property name="Sheetname" value="03  Toyota wheel inputs"/>
+      <property name="Sheetfile" value="03_inputs.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/03  Toyota wheel inputs/" tstamps="/e61fc102-5eab-5c8d-9e30-8d013197201e/"/>
+      <tstamps>54bead85-fef1-520c-96b7-9267564ddb10</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP8">
+      <value>ADC_SW2</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Assembly">PCB_FEATURE</field>
+        <field name="DesignNote">PCB pad, no purchased part</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Assembly" value="PCB_FEATURE"/>
+      <property name="DesignNote" value="PCB pad, no purchased part"/>
+      <property name="Sheetname" value="03  Toyota wheel inputs"/>
+      <property name="Sheetfile" value="03_inputs.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/03  Toyota wheel inputs/" tstamps="/e61fc102-5eab-5c8d-9e30-8d013197201e/"/>
+      <tstamps>520e2154-3ec5-50c7-970b-80f07b329c98</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>10nF 50V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://yageogroup.com/download/specsheet/C0805C103K5RACTU</datasheet>
+      <fields>
+        <field name="MPN">C0805C103K5RACTU</field>
+        <field name="Manufacturer">KEMET / YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">SWRC+ to SWRC_GND switching-feedthrough filter; not an ACC fault clamp.</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://yageogroup.com/download/specsheet/C0805C103K5RACTU</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805C103K5RACTU"/>
+      <property name="Manufacturer" value="KEMET / YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="SWRC+ to SWRC_GND switching-feedthrough filter; not an ACC fault clamp."/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>7cff472e-b52e-524e-ba74-ea8e69008043</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="MPN">AO3400A</field>
+        <field name="Manufacturer">Alpha and Omega Semiconductor</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">G=1 S=2 D=3; output active HIGH</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Transistor_FET_AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="Manufacturer" value="Alpha and Omega Semiconductor"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="G=1 S=2 D=3; output active HIGH"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>865b8e39-f84c-572e-82e5-48e8bccc15e9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q3">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="MPN">AO3400A</field>
+        <field name="Manufacturer">Alpha and Omega Semiconductor</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">G=1 S=2 D=3; output active HIGH</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Transistor_FET_AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="Manufacturer" value="Alpha and Omega Semiconductor"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="G=1 S=2 D=3; output active HIGH"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>a0a93994-9c13-5dbe-a448-57335696ca78</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q5">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="MPN">AO3400A</field>
+        <field name="Manufacturer">Alpha and Omega Semiconductor</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">G=1 S=2 D=3; output active HIGH</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Transistor_FET_AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="Manufacturer" value="Alpha and Omega Semiconductor"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="G=1 S=2 D=3; output active HIGH"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>e1766598-ca9f-5441-9b08-f33f382afa82</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q6">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="MPN">AO3400A</field>
+        <field name="Manufacturer">Alpha and Omega Semiconductor</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">G=1 S=2 D=3; output active HIGH</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Transistor_FET_AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="Manufacturer" value="Alpha and Omega Semiconductor"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="G=1 S=2 D=3; output active HIGH"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>f7e7791f-5ff8-5c04-b428-56e507b058ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q7">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="MPN">AO3400A</field>
+        <field name="Manufacturer">Alpha and Omega Semiconductor</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">G=1 S=2 D=3; output active HIGH</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Transistor_FET_AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="Manufacturer" value="Alpha and Omega Semiconductor"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="G=1 S=2 D=3; output active HIGH"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>b8a47b47-1ad8-523a-9d31-99a87ac28f10</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>47R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-0747RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, command resistor; user empirically verified window</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-0747RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, command resistor; user empirically verified window"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>bd354fa6-49ed-55aa-9b9f-f2e970776e90</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>191R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07191RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, command resistor; user empirically verified window</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-07191RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, command resistor; user empirically verified window"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>9d4f83ad-b6ac-5863-ad9f-7de011120ffb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>390R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07390RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, command resistor; user empirically verified window</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-07390RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, command resistor; user empirically verified window"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>f73a0c1f-faf6-5b85-9d09-244fe6208ab5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>1.00k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, command resistor; user empirically verified window</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-071KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, command resistor; user empirically verified window"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>bf267688-d9b0-50f6-a26b-00de3a510cc0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>2.00k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-072KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, command resistor; user empirically verified window</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-072KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, command resistor; user empirically verified window"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>c4d5cfad-4822-52fa-8a8a-8259673c6a5c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>1.00k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, gate series resistor</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-071KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, gate series resistor"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>3d109a29-adf8-515e-a54a-12fe339a071c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>1.00k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, gate series resistor</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-071KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, gate series resistor"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>4af54e6d-ebc4-52d5-b000-cb6574f353a8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R25">
+      <value>1.00k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, gate series resistor</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-071KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, gate series resistor"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>1c766c29-7ac3-5148-b27b-8d9a410f3567</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R26">
+      <value>1.00k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, gate series resistor</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-071KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, gate series resistor"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>8c3be790-6225-5adc-aa11-a4383ec6edac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R27">
+      <value>1.00k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, gate series resistor</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-071KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, gate series resistor"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>bdab972d-5816-595e-ac03-6df6747ecb2c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R31">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, gate-source pulldown; reset default OFF</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-07100KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, gate-source pulldown; reset default OFF"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>001078e2-e791-5e87-b822-8cab0c55ae04</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R33">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, gate-source pulldown; reset default OFF</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-07100KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, gate-source pulldown; reset default OFF"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>03eeaa50-45f7-505f-bb9d-dc836879a319</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R35">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, gate-source pulldown; reset default OFF</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-07100KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, gate-source pulldown; reset default OFF"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>599027b2-417b-58d7-9470-e9914c3282e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R36">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, gate-source pulldown; reset default OFF</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-07100KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, gate-source pulldown; reset default OFF"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>56c9ca4e-bf33-570c-9f1c-19aab1038f54</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R37">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Assembly">FACTORY_SMT</field>
+        <field name="DesignNote">1%, gate-source pulldown; reset default OFF</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tacoma" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-07100KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Assembly" value="FACTORY_SMT"/>
+      <property name="DesignNote" value="1%, gate-source pulldown; reset default OFF"/>
+      <property name="Sheetname" value="04  Continental resistor outputs"/>
+      <property name="Sheetfile" value="04_outputs.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04  Continental resistor outputs/" tstamps="/4a4d2a68-f1c7-58df-bfd1-29b51b5dfe68/"/>
+      <tstamps>bf76031e-3a1d-5df5-8b79-c168eb8b96d3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Tacoma" part="BAS70">
+      <description>Schottky diode</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAS70.pdf</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAS70</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAS70.pdf</field>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="Connector_Generic_Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="Connector_TestPoint">
+      <description>test point</description>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="Device_C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="Device_C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="Device_D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="Device_D_Zener">
+      <description>Zener diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="Device_Fuse">
+      <description>Fuse</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="Device_NetTie_2">
+      <description>Net tie, 2 pins</description>
+      <footprints>
+        <fp>Net*Tie*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">NT</field>
+        <field name="Value">NetTie_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Net tie, 2 pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="Device_R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="Diode_BAT54S">
+      <description>Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ds11005.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54S</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds11005.pdf</field>
+        <field name="Description">Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="COM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="LT3012EDE">
+      <description>ADI LT3012EDE adjustable 80V 250mA reverse-protected LDO; DE exposed pad is13</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT3012EDE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ADI LT3012EDE adjustable 80V 250mA reverse-protected LDO; DE exposed pad is13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="OUT" type="passive"/>
+        <pin num="4" name="ADJ" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="SHDN" type="input"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="IN" type="power_in"/>
+        <pin num="11" name="IN" type="power_in"/>
+        <pin num="12" name="NC" type="no_connect"/>
+        <pin num="13" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="Molex_43045_12_SMT">
+      <description>Molex circuit numbers: confirmed loose cable mating face, latch up, top 7-12 and bottom 1-6 left to right; retention pads isolated.</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Molex_43045_12_SMT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Molex circuit numbers: confirmed loose cable mating face, latch up, top 7-12 and bottom 1-6 left to right; retention pads isolated.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EMPTY" type="passive"/>
+        <pin num="2" name="EMPTY" type="passive"/>
+        <pin num="3" name="EMPTY" type="passive"/>
+        <pin num="4" name="SW1" type="passive"/>
+        <pin num="5" name="EMPTY" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="EMPTY" type="passive"/>
+        <pin num="8" name="SW2" type="passive"/>
+        <pin num="9" name="SWRC_RED" type="passive"/>
+        <pin num="10" name="SWRC_WHITE" type="passive"/>
+        <pin num="11" name="UNUSED_24" type="passive"/>
+        <pin num="12" name="ACC" type="passive"/>
+        <pin num="MP1" name="RETENTION_L" type="passive"/>
+        <pin num="MP2" name="RETENTION_R" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="Transistor_FET_AO3400A">
+      <description>30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3400A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description">30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tacoma" part="XIAO_RP2040_Socket">
+      <description>Standard XIAO RP2040; USB up. Local DIP numbering, not MCU pin numbers.</description>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">XIAO_RP2040_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Standard XIAO RP2040; USB up. Local DIP numbering, not MCU pin numbers.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D0/GP26/ADC0" type="bidirectional"/>
+        <pin num="2" name="D1/GP27/ADC1" type="bidirectional"/>
+        <pin num="3" name="D2/GP28" type="bidirectional"/>
+        <pin num="4" name="D3/GP29" type="bidirectional"/>
+        <pin num="5" name="D4/GP6" type="bidirectional"/>
+        <pin num="6" name="D5/GP7" type="bidirectional"/>
+        <pin num="7" name="D6/GP0" type="bidirectional"/>
+        <pin num="8" name="D7/GP1" type="bidirectional"/>
+        <pin num="9" name="D8/GP2" type="bidirectional"/>
+        <pin num="10" name="D9/GP4" type="bidirectional"/>
+        <pin num="11" name="D10/GP3" type="bidirectional"/>
+        <pin num="12" name="3V3" type="power_out"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="5V/VBUS" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Tacoma">
+      <uri>${KIPRJMOD}/Tacoma.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3_SENSE" class="Default">
+      <node ref="A1" pin="12" pinfunction="3V3_12" pintype="power_out"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="A_1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="A_1" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="K_2" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="K_2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V_MODULE" class="Default">
+      <node ref="A1" pin="14" pinfunction="5V/VBUS_14" pintype="power_in"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="ACC" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="ACC_12" pintype="passive"/>
+    </net>
+    <net code="4" name="ACC_CLAMP" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="IN_10" pintype="power_in"/>
+      <node ref="U1" pin="11" pinfunction="IN_11" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="SHDN_8" pintype="input"/>
+    </net>
+    <net code="5" name="ACC_DIODE" class="Default">
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="ACC_FUSED" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="ADC_SW1" class="Default">
+      <node ref="A1" pin="1" pinfunction="D0/GP26/ADC0_1" pintype="bidirectional"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D7" pin="3" pinfunction="COM_3" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="8" name="ADC_SW2" class="Default">
+      <node ref="A1" pin="2" pinfunction="D1/GP27/ADC1_2" pintype="bidirectional"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D8" pin="3" pinfunction="COM_3" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="9" name="BR_1K" class="Default">
+      <node ref="A1" pin="10" pinfunction="D9/GP4_10" pintype="bidirectional"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="BR_2K" class="Default">
+      <node ref="A1" pin="11" pinfunction="D10/GP3_11" pintype="bidirectional"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="BR_47R" class="Default">
+      <node ref="A1" pin="7" pinfunction="D6/GP0_7" pintype="bidirectional"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="BR_191R" class="Default">
+      <node ref="A1" pin="8" pinfunction="D7/GP1_8" pintype="bidirectional"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="BR_390R" class="Default">
+      <node ref="A1" pin="9" pinfunction="D8/GP2_9" pintype="bidirectional"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="GND" class="Default">
+      <node ref="A1" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="A_1" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="A_1" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="GND_6" pintype="passive"/>
+      <node ref="NT1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="EP_13" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="GND_5" pintype="power_in"/>
+    </net>
+    <net code="15" name="Net-(D5-K)" class="Default">
+      <node ref="D5" pin="3" pinfunction="K_3" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D6-K)" class="Default">
+      <node ref="D6" pin="3" pinfunction="K_3" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q1-D)" class="Default">
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Q1-G)" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(Q3-D)" class="Default">
+      <node ref="Q3" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(Q3-G)" class="Default">
+      <node ref="Q3" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Q5-D)" class="Default">
+      <node ref="Q5" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q5-G)" class="Default">
+      <node ref="Q5" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(Q6-D)" class="Default">
+      <node ref="Q6" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(Q6-G)" class="Default">
+      <node ref="Q6" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(Q7-D)" class="Default">
+      <node ref="Q7" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(Q7-G)" class="Default">
+      <node ref="Q7" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="REG5" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="OUT_2" pintype="power_out"/>
+      <node ref="U1" pin="3" pinfunction="OUT_3" pintype="passive"/>
+    </net>
+    <net code="28" name="REG_FB" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="ADJ_4" pintype="input"/>
+    </net>
+    <net code="29" name="SW1_RAW" class="Default">
+      <node ref="J1" pin="4" pinfunction="SW1_4" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="SW2_RAW" class="Default">
+      <node ref="J1" pin="8" pinfunction="SW2_8" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="SWRC_GND" class="Default">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="SWRC_WHITE_10" pintype="passive"/>
+      <node ref="NT1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="32" name="SWRC_PLUS" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="SWRC_RED_9" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(A1-D2/GP28-Pad3)" class="Default">
+      <node ref="A1" pin="3" pinfunction="D2/GP28_3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(A1-D3/GP29-Pad4)" class="Default">
+      <node ref="A1" pin="4" pinfunction="D3/GP29_4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(A1-D4/GP6-Pad5)" class="Default">
+      <node ref="A1" pin="5" pinfunction="D4/GP6_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(A1-D5/GP7-Pad6)" class="Default">
+      <node ref="A1" pin="6" pinfunction="D5/GP7_6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(D5-NC-Pad2)" class="Default">
+      <node ref="D5" pin="2" pinfunction="NC_2" pintype="no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(D6-NC-Pad2)" class="Default">
+      <node ref="D6" pin="2" pinfunction="NC_2" pintype="no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J1-EMPTY-Pad1)" class="Default">
+      <node ref="J1" pin="1" pinfunction="EMPTY_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J1-EMPTY-Pad2)" class="Default">
+      <node ref="J1" pin="2" pinfunction="EMPTY_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J1-EMPTY-Pad3)" class="Default">
+      <node ref="J1" pin="3" pinfunction="EMPTY_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J1-EMPTY-Pad5)" class="Default">
+      <node ref="J1" pin="5" pinfunction="EMPTY_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J1-EMPTY-Pad7)" class="Default">
+      <node ref="J1" pin="7" pinfunction="EMPTY_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J1-RETENTION_L-PadMP1)" class="Default">
+      <node ref="J1" pin="MP1" pinfunction="RETENTION_L_MP1" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J1-RETENTION_R-PadMP2)" class="Default">
+      <node ref="J1" pin="MP2" pinfunction="RETENTION_R_MP2" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J1-UNUSED_24-Pad11)" class="Default">
+      <node ref="J1" pin="11" pinfunction="UNUSED_24_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-NC-Pad1)" class="Default">
+      <node ref="U1" pin="1" pinfunction="NC_1" pintype="no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-NC-Pad6)" class="Default">
+      <node ref="U1" pin="6" pinfunction="NC_6" pintype="no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-NC-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="NC_7" pintype="no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-NC-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="NC_9" pintype="no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-NC-Pad12)" class="Default">
+      <node ref="U1" pin="12" pinfunction="NC_12" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
