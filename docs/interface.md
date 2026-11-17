@@ -1,6 +1,6 @@
 # The two interfaces
 
-What the board has to talk to on each side, and where the numbers come from.
+The electrical interfaces on each side of the board: the truck's steering-wheel lines, the radio's SWRC input, and the harness between them. Each section gives the source of its numbers.
 
 ## Tacoma steering wheel
 
