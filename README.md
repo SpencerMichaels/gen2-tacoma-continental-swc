@@ -56,7 +56,12 @@ Tested with a 2013 Tacoma. The wheel resistances are documented for 2011–2015 
 
 ## Wiring
 
-J1 is a Molex Micro-Fit 3.0, 2 × 6 right-angle header (43045-1209). It mates with the 12-pin harness of an Axxess AXSWC steering-wheel interface, so the board can take the AXSWC's place. Without that harness, you can make one with a Molex 43025-1200 housing and Micro-Fit crimp terminals.
+J1 is a Molex Micro-Fit 3.0, 2 × 6 right-angle header (43045-1209). It mates with the 12-pin harness of an Axxess AXSWC steering-wheel interface, so the board can take the AXSWC's place. You don't need the AXSWC module itself, only its harness:
+
+- **Likely alternative (untested):** the [RED WOLF 20-pin steering-wheel control harness w/RCA](https://www.amazon.com/RED-WOLF-Replacement-2003-2014-Aftermarket/dp/B09S33B8L1). It's sold separately as a replacement for the AXSWC/ASWC-1 harness. Before plugging it in, check two things:
+  - its module-end plug is the 12-pin Micro-Fit;
+  - its wiring matches the [J1 pinout](#wiring) below, especially ACC (pin 12), SWRC+ (pin 9) and SWRC GND (pin 10). Check this with a meter.
+- **Make your own:** a Molex 43025-1200 housing and Micro-Fit crimp terminals.
 
 ![J1 pinout](docs/img/j1_pinout.svg)
 

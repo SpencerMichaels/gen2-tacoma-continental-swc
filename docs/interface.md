@@ -70,7 +70,11 @@ Each output sits well inside its window. MOSFET on-resistance (under 50 mΩ) and
 
 ## Harness
 
-The board plugs into the 12-pin Molex Micro-Fit 3.0 harness made for an Axxess AXSWC interface. The pin assignments were traced by continuity on that harness:
+The board plugs into the 12-pin Molex Micro-Fit 3.0 harness made for an Axxess AXSWC interface. The pin assignments were traced by continuity on that harness.
+
+The [RED WOLF 20-pin SWC harness](https://www.amazon.com/RED-WOLF-Replacement-2003-2014-Aftermarket/dp/B09S33B8L1) is sold as a replacement AXSWC/ASWC-1 harness and will likely work, but it hasn't been tested with this board. Before connecting it, confirm each pin below with a meter.
+
+Pin assignments:
 
 | Molex pin | Signal | Notes |
 |---:|---|---|
