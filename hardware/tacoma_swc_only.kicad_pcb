@@ -2328,6 +2328,28 @@
 			(uuid "2a050ddc-f0cb-4ae5-bcf4-49d12aa8101f")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x07_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x07_P2.54mm_Vertical.step"
+			(offset
+				(xyz 15.24 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:CP_Elec_8x10.5"
 		(layer "F.Cu")
@@ -9188,7 +9210,7 @@
 			(uuid "1510ab1d-4f4f-477f-803c-2643f9ab4fda")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-1210_2x06-1MP_P3.00mm_Horizontal.step"
+		(model "${KIPRJMOD}/3dmodels/Molex_Micro-Fit_3.0_43045-1210_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)

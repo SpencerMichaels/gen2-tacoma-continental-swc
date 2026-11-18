@@ -6,7 +6,7 @@ The Tacoma's wheel buttons and the Continental's steering-wheel input both use r
 
 ![Assembled board, 3D render](docs/img/board_3d.png)
 
-*3D render. J1, the XIAO module and its sockets have no 3D models, so their footprints appear empty.*
+*3D render, seen from the connector edge. J1 (grey) is a simplified stand-in model. The XIAO module itself isn't shown, only its two sockets.*
 
 ## How it works
 
